@@ -50,7 +50,7 @@ def process_image(image_path, api_key, output_directory):
                 "content": [
                     {
                         "type": "text",
-                        "text": "You're an expert in OCR and are working in a heritage/genealogy context assisting in data processing post graveyard survey. Examine this image and extract the names, dates and suspected location names for each memorial number - no other fields.. Respond in json format only. e.g {memorial_number: 69, name: John Doe, date: Jan 1, 1800, location: Springfield}. If no memorial number, name, date or location is visible in an image, return a json with NULL in each field"
+                        "text": "Analyze the graveyard survey image for OCR in a heritage context. Extract and provide in JSON format: names, dates, and location names per memorial number. Format: {memorial_number: [number], name: [name], date: [date], location: [location]}. If any detail is missing, use NULL for that field"
                     },
                     {
                         "type": "image_url",
