@@ -15,7 +15,8 @@ HG TextHarvester is a basic toolkit designed for digitizing and extracting textu
 1. **Install Python**: Ensure Python 3.x is installed on your system.
 2. **Install Libraries**: Install necessary Python libraries using pip:
 
-```pip install pillow requests csv glob json base64
+```
+pip install pillow requests csv glob json base64
 
 ```
 
