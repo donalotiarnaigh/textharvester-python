@@ -63,6 +63,6 @@ HG TextHarvester comprises three main scripts:
 
 ## Support
 
-For additional support or inquiries, please contact the development team at [support@hgtextarvester.com].
+For additional support or inquiries, please contact the development team at [ghth@danieltierney.ie].
 
 Thank you for choosing HG TextHarvester for your historic graves' documentation needs. Happy digitizing!
