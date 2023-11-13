@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSKwtJiIaOYV2mvXaPtcY4fj6XGx",
+    "object": "chat.completion",
+    "created": 1699886178,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 32,
+        "total_tokens": 1226
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n{\n  \"error\": \"No extractable data found for names, dates and suspected location names for memorials from the provided image.\"\n}\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

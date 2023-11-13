@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSMzfc0h1XYFKhuiufG5XaQ1TZaw",
+    "object": "chat.completion",
+    "created": 1699886305,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 186,
+        "total_tokens": 1380
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 121,\n        \"name\": \"\u05de\u05e8\u05d3\u05db\u05d9 \u05d1\u05dc\u05d5\u05d9\",\n        \"date\": \"\u05ea\u05e9\u05e8\u05d9 \u05ea\u05e9\u05e2\u05d6\",\n        \"location\": \"\u05e0\u05d7\u05dc\u05ea \u05d9\u05e6\u05d7\u05e7\"\n    },\n    {\n        \"memorial_number\": 122,\n        \"name\": \"\u05de\u05d9\u05db\u05d0\u05dc \u05e4\u05dc\u05d3\",\n        \"date\": \"\u05d0\u05d3\u05e8 \u05ea\u05e9\u05e4\u05d2\",\n        \"location\": \"\u05ea\u05dc \u05d0\u05d1\u05d9\u05d1\"\n    },\n    {\n        \"memorial_number\": 123,\n        \"name\": \"\u05e8\u05d7\u05dc \u05e7\u05d5\u05e9\u05e0\u05d9\u05e8\",\n        \"date\": \"\u05e0\u05d9\u05e1\u05df \u05ea\u05e9\u05e4\u05d3\",\n        \"location\": \"\u05e0\u05d7\u05dc\u05ea \u05d9\u05d4\u05d5\u05d3\u05d4\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

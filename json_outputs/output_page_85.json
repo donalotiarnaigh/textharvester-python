@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSGTPG27IPkQ5EpxVFIOZEJ6Af6l",
+    "object": "chat.completion",
+    "created": 1699885901,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 137,
+        "total_tokens": 1331
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 174,\n        \"name\": \"Johanna Frain\",\n        \"date\": \"August 1, 1804\",\n        \"location\": \"Gallbally\"\n    },\n    {\n        \"memorial_number\": 177,\n        \"name\": \"William Mullane\",\n        \"date\": \"October 28, 1900\",\n        \"location\": \"Gallbally\"\n    },\n    {\n        \"memorial_number\": 179,\n        \"name\": \"Illegible headstone\",\n        \"date\": \"\",\n        \"location\": \"Gallbally\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

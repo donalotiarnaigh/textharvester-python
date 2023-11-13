@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSNr1bpraCpk2O9SojAoelnA8hFc",
+    "object": "chat.completion",
+    "created": 1699886359,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 153,
+        "total_tokens": 1347
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 371,\n        \"name\": \"Kate Sheehy nee Coskeran\",\n        \"date\": \"June 1, 2009\",\n        \"location\": \"Ballinvana Martinstown\"\n    },\n    {\n        \"memorial_number\": 372,\n        \"name\": \"Thomas Coskeran\",\n        \"date\": \"Jan 10, 1971\",\n        \"location\": \"Illegibles\"\n    },\n    {\n        \"memorial_number\": 373,\n        \"name\": \"David Coskeran\",\n        \"date\": \"Nov 19, 1996\",\n        \"location\": \"Mooresfort Lattin\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

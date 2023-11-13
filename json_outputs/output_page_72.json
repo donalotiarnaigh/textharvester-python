@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSOIAD9qttJSVTbcOWuhDA17mKTP",
+    "object": "chat.completion",
+    "created": 1699886386,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 253,
+        "total_tokens": 1447
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 254,\n        \"name\": \"Wm. Renoflick\",\n        \"date\": \"Feb 8 1984\",\n        \"location\": null\n    },\n    {\n        \"memorial_number\": 254,\n        \"name\": \"wife Nona\",\n        \"date\": \"May 6th, 1983\",\n        \"location\": null\n    },\n    {\n        \"memorial_number\": 255,\n        \"name\": \"Josephine Conway Mackenna\",\n        \"date\": \"Feb 3 1978\",\n        \"location\": null\n    },\n    {\n        \"memorial_number\": 255,\n        \"name\": \"her husband John\",\n        \"date\": \"Dec 26 1979\",\n        \"location\": null\n    },\n    {\n        \"memorial_number\": 256,\n        \"name\": \"William R Conway\",\n        \"date\": null,\n        \"location\": null\n    },\n    {\n        \"memorial_number\": 256,\n        \"name\": \"Padrich Conway of Stonepark\",\n        \"date\": \"Dec 5th 1894\",\n        \"location\": \"Stonepark\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSMdeDPKdoq4qiupuJFRC5dhjIGM",
+    "object": "chat.completion",
+    "created": 1699886283,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 93,
+        "total_tokens": 1287
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n  {\n    \"memorial_number\": 304,\n    \"name\": \"Mary Moore\",\n    \"date\": \"Aug 28th 1855\",\n    \"location\": \"Galbally\"\n  },\n  {\n    \"memorial_number\": 304,\n    \"name\": \"Mich'l Moore\",\n    \"date\": \"July 12th 1853\",\n    \"location\": \"Galbally\"\n  }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

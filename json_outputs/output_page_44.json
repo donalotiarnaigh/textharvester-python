@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSICUj6a4sYL5kybyWUH20hHNkBG",
+    "object": "chat.completion",
+    "created": 1699886008,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 49,
+        "total_tokens": 1243
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n{\n  \"memorial_number\": 286,\n  \"name\": \"Timothy Kilmartin\",\n  \"date\": \"9th October 1764\",\n  \"location\": \"G. Sallay\"\n}\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

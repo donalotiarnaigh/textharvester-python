@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSJ3EiBuiN6msxAGLR4jAVr0GEaE",
+    "object": "chat.completion",
+    "created": 1699886061,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 74,
+        "total_tokens": 1268
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "I'm sorry, but I cannot provide text extracted from the image you've provided as it does not contain any actual text. The image seems to be a blank template commonly used for recording cemetery records, and there is no visible inscription or memorial number information to transcribe. If you have an image with the actual details filled in, I can assist with extracting that information."
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

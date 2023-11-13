@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSI6ZXU9RaKSQYLRkzUc2SpdSam2",
+    "object": "chat.completion",
+    "created": 1699886002,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 134,
+        "total_tokens": 1328
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n  {\n    \"memorial_number\": 257,\n    \"name\": \"Edmund Conway\",\n    \"date\": \"Apr 1933\",\n    \"location\": \"Longford Aherlow\"\n  },\n  {\n    \"memorial_number\": 258,\n    \"name\": \"Edmund Conway\",\n    \"date\": \"12 March 1912\",\n    \"location\": \"O'Brien Street, Tipperary\"\n  },\n  {\n    \"memorial_number\": 264,\n    \"name\": \"Margaret Commons\",\n    \"date\": \"15th Dec 1821\",\n    \"location\": \"\"\n  }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSIerl65pDiPDZmrtN72jhTc8K0t",
+    "object": "chat.completion",
+    "created": 1699886036,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 179,
+        "total_tokens": 1373
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 170,\n        \"name\": \"Patrick Noonan\",\n        \"date\": \"Jun 14 1949\",\n        \"location\": \"Galbally\"\n    },\n    {\n        \"memorial_number\": 170,\n        \"name\": \"Maria Noonan\",\n        \"date\": \"April 3 1945\",\n        \"location\": \"Galbally\"\n    },\n    {\n        \"memorial_number\": 171,\n        \"name\": \"Philip McCarthy\",\n        \"date\": \"Feb 6 1836\",\n        \"location\": \"Galbally\"\n    },\n    {\n        \"memorial_number\": 173,\n        \"name\": \"Darby Fruin\",\n        \"date\": \"Dec 9 1822\",\n        \"location\": \"Galbally\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

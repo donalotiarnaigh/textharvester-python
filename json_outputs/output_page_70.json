@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSOrpKxgZn55D5Eg5Jl9r36Aq524",
+    "object": "chat.completion",
+    "created": 1699886421,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 195,
+        "total_tokens": 1389
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n  {\n    \"memorial_number\": 283,\n    \"name\": \"Daniel Hayes\",\n    \"date\": \"Dec 26, 1829, aged 53 yrs\",\n    \"location\": \"Kilgony\"\n  },\n  {\n    \"memorial_number\": 283,\n    \"name\": \"A---- ----- Hayes\",\n    \"date\": \"March 26, 1839\",\n    \"location\": \"Kilgony\"\n  },\n  {\n    \"memorial_number\": 284,\n    \"name\": \"Jn'o Heffernan\",\n    \"date\": \"29 May 1829, aged 71\",\n    \"location\": null\n  },\n  {\n    \"memorial_number\": 285,\n    \"name\": \"Thomas Cosheran\",\n    \"date\": \"Sep 10, 1865, aged 80 yrs\",\n    \"location\": null\n  }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSJU3Ff5TbapzLJ3ugusZjVca4cf",
+    "object": "chat.completion",
+    "created": 1699886088,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 432,
+        "total_tokens": 1626
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 292,\n        \"name\": \"Daniel Hysaght\",\n        \"date\": \"Jan 20th, 1970\",\n        \"location\": \"Gaelbaol\"\n    },\n    {\n        \"memorial_number\": 292,\n        \"name\": \"Elizabeth (Lizzie)\",\n        \"date\": \"Dec 5th, 1945\",\n        \"location\": \"Gaelbaol\"\n    },\n    {\n        \"memorial_number\": 249,\n        \"name\": \"Wm Morrissey\",\n        \"date\": \"Aug. 16 1963\",\n        \"location\": \"Gaelbaol\"\n    },\n    {\n        \"memorial_number\": 249,\n        \"name\": \"Mary Ellen\",\n        \"date\": \"Jan 4, 1966\",\n        \"location\": \"Gaelbaol\"\n    },\n    {\n        \"memorial_number\": 249,\n        \"name\": \"Catherine\",\n        \"date\": \"Mar 3 1948 (22yrs)\",\n        \"location\": \"Gaelbaol\"\n    },\n    {\n        \"memorial_number\": 249,\n        \"name\": \"Michael\",\n        \"date\": \"Mar 3 1948 (22yrs)\",\n        \"location\": \"Gaelbaol\"\n    },\n    {\n        \"memorial_number\": 350,\n        \"name\": \"Mrs. Dr. Wm Hennessy nee Alice Donovan\",\n        \"date\": \"Nov. 30th 1932 aged 69 yrs.\",\n        \"location\": \"Gaelbaol\"\n    },\n    {\n        \"memorial_number\": 350,\n        \"name\": \"Robert Donovan\",\n        \"date\": \"June 1st 1940\",\n        \"location\": \"Gaelbaol\"\n    },\n    {\n        \"memorial_number\": 350,\n        \"name\": \"James Donovan\",\n        \"date\": \"Dec 11th 1949\",\n        \"location\": \"Gaelbaol\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

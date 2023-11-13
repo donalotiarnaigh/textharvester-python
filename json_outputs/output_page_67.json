@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSNzVSfpLnVA9JUr5aU11M1jqcRR",
+    "object": "chat.completion",
+    "created": 1699886367,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 178,
+        "total_tokens": 1372
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 312,\n        \"name\": \"Thadee ??? Dolphin\",\n        \"date\": \"May the 4th 1785 aged 36 yrs\",\n        \"location\": \"\"\n    },\n    {\n        \"memorial_number\": 313,\n        \"name\": \"Elizabeth Cuishe alias O'Leary\",\n        \"date\": \"Apr 10 1809 aged 40 yrs also Julian O'Leary Feb 1st 1811 aged 60 yrs\",\n        \"location\": \"\"\n    },\n    {\n        \"memorial_number\": 318,\n        \"name\": \"Adam Landers\",\n        \"date\": \"3 Jan 1773 aged 86 yrs his wife Mary Landers alias Cooke Nov 12 1796 aged 92 yrs\",\n        \"location\": \"\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

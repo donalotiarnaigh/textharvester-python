@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSPAP7bWDiyySbOyUZqg360DKUOk",
+    "object": "chat.completion",
+    "created": 1699886440,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 353,
+        "total_tokens": 1547
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n  {\n    \"memorial_number\": 299,\n    \"name\": \"Liam Quinlan\",\n    \"date\": \"Sept 16 1853\",\n    \"location\": \"Ballywire\"\n  },\n  {\n    \"memorial_number\": 299,\n    \"name\": \"James Quinlan\",\n    \"date\": \"20 Jun 1844\",\n    \"location\": \"Ballywire\"\n  },\n  {\n    \"memorial_number\": 300,\n    \"name\": \"Michael O'Dwyer\",\n    \"date\": \"Jan 3rd 1922\",\n    \"location\": \"Knockarron\"\n  },\n  {\n    \"memorial_number\": 300,\n    \"name\": \"John O'Dwyer\",\n    \"date\": \"July 12 1955\",\n    \"location\": \"Knockarron\"\n  },\n  {\n    \"memorial_number\": 311,\n    \"name\": \"Johanna Ryan\",\n    \"date\": \"31 Mar 1935\",\n    \"location\": \"Morardbeg\"\n  },\n  {\n    \"memorial_number\": 311,\n    \"name\": \"John Ryan\",\n    \"date\": \"10 Sep 1940\",\n    \"location\": \"Morardbeg\"\n  },\n  {\n    \"memorial_number\": 311,\n    \"name\": \"Mary Ryan\",\n    \"date\": \"2 Jan 1918\",\n    \"location\": \"Morardbeg\"\n  },\n  {\n    \"memorial_number\": 311,\n    \"name\": \"William Ryan\",\n    \"date\": \"3 Feb 1934\",\n    \"location\": \"Morardbeg\"\n  }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

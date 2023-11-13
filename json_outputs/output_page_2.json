@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSGrkr2op7HQt9gbu3ilCpaTguXM",
+    "object": "chat.completion",
+    "created": 1699885925,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 92,
+        "total_tokens": 1286
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 143,\n        \"name\": \"Patrick Condon\",\n        \"date\": \"March 24 1940\",\n        \"location\": \"Callaly\"\n    },\n    {\n        \"memorial_number\": 143,\n        \"name\": \"Catherine Condon\",\n        \"date\": \"May 8th 1956\",\n        \"location\": \"Callaly\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

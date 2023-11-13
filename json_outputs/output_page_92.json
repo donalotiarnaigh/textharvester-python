@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSHR4fWhLHPKd9BzC6JEJsNJEwwi",
+    "object": "chat.completion",
+    "created": 1699885961,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 409,
+        "total_tokens": 1603
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 193,\n        \"name\": \"Thomas Russell\",\n        \"date\": \"4 July 1944\",\n        \"location\": \"Margaret nee Bourke\"\n    },\n    {\n        \"memorial_number\": 193,\n        \"name\": \"Margaret\",\n        \"date\": \"19 Sept 1959\",\n        \"location\": \"nee Bourke\"\n    },\n    {\n        \"memorial_number\": 193,\n        \"name\": \"John\",\n        \"date\": \"25 June 1983\",\n        \"location\": \"\"\n    },\n    {\n        \"memorial_number\": 194,\n        \"name\": \"Patrick\",\n        \"date\": \"23. 11.1986\",\n        \"location\": \"\"\n    },\n    {\n        \"memorial_number\": 194,\n        \"name\": \"Julia\",\n        \"date\": \"30th Sept 1937\",\n        \"location\": \"nee Connery\"\n    },\n    {\n        \"memorial_number\": 195,\n        \"name\": \"John Fraher\",\n        \"date\": \"26. 8. 1928\",\n        \"location\": \"\"\n    },\n    {\n        \"memorial_number\": 195,\n        \"name\": \"Ellen\",\n        \"date\": \"18. 2. 1947\",\n        \"location\": \"\"\n    },\n    {\n        \"memorial_number\": 195,\n        \"name\": \"William Fraher\",\n        \"date\": \"8. 1. 1961\",\n        \"location\": \"\"\n    },\n    {\n        \"memorial_number\": 195,\n        \"name\": \"Josephine\",\n        \"date\": \"6. 4. 1966\",\n        \"location\": \"\"\n    },\n    {\n        \"memorial_number\": 195,\n        \"name\": \"Edmond\",\n        \"date\": \"25. 10. 1938\",\n        \"location\": \"\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSHssYhEr79Cjdf6XJDZgelBD1L6",
+    "object": "chat.completion",
+    "created": 1699885988,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 127,
+        "total_tokens": 1321
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 293,\n        \"name\": \"Michl Barry\",\n        \"date\": \"1803\",\n        \"location\": \"\"\n    },\n    {\n        \"memorial_number\": 294,\n        \"name\": \"Michael O'Neill\",\n        \"date\": \"\",\n        \"location\": \"Droumanarh\"\n    },\n    {\n        \"memorial_number\": 295,\n        \"name\": \"Patrick O'Neill\",\n        \"date\": \"d 1881 aged 60 yrs\",\n        \"location\": \"Boulinasheen\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

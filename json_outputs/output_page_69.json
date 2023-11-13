@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSJOcTYzGcEvw5EsIZrtmAn1j0SB",
+    "object": "chat.completion",
+    "created": 1699886082,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 151,
+        "total_tokens": 1345
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 320,\n        \"name\": \"William O'Sullivan\",\n        \"date\": \"Dec 16th 1843\",\n        \"location\": \"Ballyanamon\"\n    },\n    {\n        \"memorial_number\": 321,\n        \"name\": \"Dan Ryan\",\n        \"date\": \"4 April 2017\",\n        \"location\": \"Ballyslateen Golden & Barra Galbally\"\n    },\n    {\n        \"memorial_number\": \"Unknown\",\n        \"name\": \"Elizabeth Mullins (nee Noonan)\",\n        \"date\": \"20 Jan 1976\",\n        \"location\": \"Ballyslateen Golden\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

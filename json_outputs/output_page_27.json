@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSLhfRppX6rDtTi61Zt4eCbeAaw3",
+    "object": "chat.completion",
+    "created": 1699886225,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 99,
+        "total_tokens": 1293
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 316,\n        \"name\": \"Bridget McCarthy\",\n        \"date\": \"March 3, 1976\",\n        \"location\": \"Galbally\"\n    },\n    {\n        \"memorial_number\": 316,\n        \"name\": \"Bridget O'Mellorn\",\n        \"date\": \"May 12, 1960\",\n        \"location\": \"Galbally\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

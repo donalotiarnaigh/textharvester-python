@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSN5xtMSQfzrrvQ3HIos79pa2b7t",
+    "object": "chat.completion",
+    "created": 1699886311,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 96,
+        "total_tokens": 1290
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 161,\n        \"name\": \"Mary Catherine Walsh\",\n        \"date\": \"20 Aug 1840\",\n        \"location\": \"Ballyquin\"\n    },\n    {\n        \"memorial_number\": 161,\n        \"name\": \"Bridget Walsh nee Heaphy\",\n        \"date\": \"29 Sept 1835\",\n        \"location\": \"Ballyquin\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

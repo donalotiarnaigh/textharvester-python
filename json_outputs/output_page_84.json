@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSH9NhSqzt5OkN8iANJpDwOXG4gA",
+    "object": "chat.completion",
+    "created": 1699885943,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 142,
+        "total_tokens": 1336
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n  {\n    \"memorial_number\": 203,\n    \"name\": \"John Pigott\",\n    \"date\": \"19th March 2004\",\n    \"location\": \"Galbally\"\n  },\n  {\n    \"memorial_number\": 204,\n    \"name\": \"Patrick Pickett\",\n    \"date\": \"the 20th 1848\",\n    \"location\": \"Galbally\"\n  },\n  {\n    \"memorial_number\": 205,\n    \"name\": \"Kathleen Hogan (nee Slattery)\",\n    \"date\": \"24th June 2011\",\n    \"location\": \"Galbally\"\n  }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

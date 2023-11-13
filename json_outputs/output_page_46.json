@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSGm0i2qJdm5dKNhh3F9ON9wB3G9",
+    "object": "chat.completion",
+    "created": 1699885920,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 131,
+        "total_tokens": 1325
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n  {\n    \"memorial_number\": 270,\n    \"name\": \"Mary Dawson\",\n    \"date\": \"July 21 1966\",\n    \"location\": \"Galbally\"\n  },\n  {\n    \"memorial_number\": 270,\n    \"name\": \"Michael Dawson\",\n    \"date\": \"September 1932\",\n    \"location\": \"Galbally\"\n  },\n  {\n    \"memorial_number\": 270,\n    \"name\": \"John Patrick Dawson\",\n    \"date\": \"February 24 1942\",\n    \"location\": \"Galbally\"\n  }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

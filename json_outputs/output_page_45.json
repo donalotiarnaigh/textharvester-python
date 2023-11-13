@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSHnpZXSQ5LY6tV83dEZ7PEAjQHO",
+    "object": "chat.completion",
+    "created": 1699885983,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 94,
+        "total_tokens": 1288
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n  {\n    \"memorial_number\": 271,\n    \"name\": \"Patrick Hickey\",\n    \"date\": \"July 27, 1986\",\n    \"location\": \"Galbally\"\n  },\n  {\n    \"memorial_number\": 271,\n    \"name\": \"Mary Ellen Nixon\",\n    \"date\": \"May 22, 1995\",\n    \"location\": \"Galbally\"\n  }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

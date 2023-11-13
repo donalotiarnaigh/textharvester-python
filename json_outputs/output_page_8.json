@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSOwr7DpslJ4A24sbOeFtGbNT9Vh",
+    "object": "chat.completion",
+    "created": 1699886426,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 84,
+        "total_tokens": 1278
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n{\n  \"memorial_number\": 136,\n  \"name\": \"Michael Nyland\",\n  \"date\": \"Sept 8th, 1975\",\n  \"location\": \"Unknown\"\n},\n{\n  \"memorial_number\": 136,\n  \"name\": \"Mary\",\n  \"date\": \"Sept 13th, 1990\",\n  \"location\": \"Unknown\"\n}\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

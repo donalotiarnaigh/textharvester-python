@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSKFTHUF2GdzGCosehXhNIkgmp7E",
+    "object": "chat.completion",
+    "created": 1699886135,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 348,
+        "total_tokens": 1542
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 199,\n        \"name\": \"Rev. M.L. Daly\",\n        \"date\": \"Dec 2nd 1900\",\n        \"location\": \"Ballylanders\"\n    },\n    {\n        \"memorial_number\": 199,\n        \"name\": \"Rev. John R. Daly\",\n        \"date\": \"Sept. 1st 1903\",\n        \"location\": \"Ballylanders\"\n    },\n    {\n        \"memorial_number\": 199,\n        \"name\": \"Mrs. Mary Leahy\",\n        \"date\": \"Dec 25 1904\",\n        \"location\": \"Ballylanders\"\n    },\n    {\n        \"memorial_number\": 200,\n        \"name\": \"Mary Dealy nee Doherty\",\n        \"date\": \"July 15 1832\",\n        \"location\": \"\"\n    },\n    {\n        \"memorial_number\": 201,\n        \"name\": \"John Daly\",\n        \"date\": \"Oct. 15 1958\",\n        \"location\": \"\"\n    },\n    {\n        \"memorial_number\": 201,\n        \"name\": \"Margaret Daly\",\n        \"date\": \"July 1st. 1914\",\n        \"location\": \"\"\n    },\n    {\n        \"memorial_number\": 201,\n        \"name\": \"Thomas Daly\",\n        \"date\": \"Oct. 20 1959\",\n        \"location\": \"\"\n    },\n    {\n        \"memorial_number\": 201,\n        \"name\": \"John Daly\",\n        \"date\": \"June 7th 1906\",\n        \"location\": \"\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSK5XBgKiLn92ypYTaFb5b9ZGx5g",
+    "object": "chat.completion",
+    "created": 1699886125,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 115,
+        "total_tokens": 1309
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\"memorial_number\": 1, \"name\": \"Jonathan Swift\", \"date\": \"June 26, 1886\", \"location\": \"Canterbury\"},\n    {\"memorial_number\": 2, \"name\": \"Elizabeth Thompson\", \"date\": \"April 17, 1911\", \"location\": \"Faversham\"},\n    {\"memorial_number\": 3, \"name\": \"Charlotte Bronte\", \"date\": \"March 31, 1855\", \"location\": \"Haworth\"}\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

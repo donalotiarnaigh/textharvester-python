@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSHK7yaBd2KwGXSaik90xQBVDtkc",
+    "object": "chat.completion",
+    "created": 1699885954,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 275,
+        "total_tokens": 1469
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 180,\n        \"name\": \"William Staunton\",\n        \"date\": \"8th Oct 1920\",\n        \"location\": \"Galsbally\"\n    },\n    {\n        \"memorial_number\": 180,\n        \"name\": \"Alice Staunton\",\n        \"date\": \"11th May 1950\",\n        \"location\": \"Galsbally\"\n    },\n    {\n        \"memorial_number\": 181,\n        \"name\": \"Denis McGrath\",\n        \"date\": \"28th Feb 1958\",\n        \"location\": \"Galsbally\"\n    },\n    {\n        \"memorial_number\": 181,\n        \"name\": \"Annie\",\n        \"date\": \"10th Oct 1949\",\n        \"location\": \"Galsbally\"\n    },\n    {\n        \"memorial_number\": 182,\n        \"name\": \"Maurice McEnry\",\n        \"date\": \"6th Dec 1970\",\n        \"location\": \"Galsbally\"\n    },\n    {\n        \"memorial_number\": 182,\n        \"name\": \"Bridget\",\n        \"date\": \"6th July 2000\",\n        \"location\": \"Galsbally\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

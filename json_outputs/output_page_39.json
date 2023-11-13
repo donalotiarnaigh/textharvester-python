@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSMvqZgwdrTOMnCLCCDbIUl7glxG",
+    "object": "chat.completion",
+    "created": 1699886301,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 92,
+        "total_tokens": 1286
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 302,\n        \"name\": \"Patrick Carroll\",\n        \"date\": \"17th May 1773\",\n        \"location\": \"Gallbally\"\n    },\n    {\n        \"memorial_number\": 302,\n        \"name\": \"Nora\",\n        \"date\": \"5th April 1973\",\n        \"location\": \"Gallbally\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

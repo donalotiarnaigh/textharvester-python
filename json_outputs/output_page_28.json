@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KSNjjPKUclzmDPqX0CDKlGDAOgRu",
+    "object": "chat.completion",
+    "created": 1699886351,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1194,
+        "completion_tokens": 94,
+        "total_tokens": 1288
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n{\n  \"memorial_number\": 317,\n  \"name\": \"Daniel O'Dwyer\",\n  \"date\": \"Aug 11, 1961\",\n  \"location\": \"Gallbally\"\n},\n{\n  \"memorial_number\": 317,\n  \"name\": \"Emily O'Dwyer\",\n  \"date\": \"March 31, 1942\",\n  \"location\": \"Gallbally\"\n}\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}
