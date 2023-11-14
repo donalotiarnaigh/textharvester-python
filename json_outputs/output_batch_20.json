@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KjY8hAgrffvIz9O4gpVpaQO3j1xH",
+    "object": "chat.completion",
+    "created": 1699952344,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 142,
+        "total_tokens": 3566
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 308,\n        \"name\": \"Timothy Daly\",\n        \"date\": \"20th Oct 1967\",\n        \"location\": \"Galbally\"\n    },\n    {\n        \"memorial_number\": 151,\n        \"name\": \"Johanna Nellie Scully\",\n        \"date\": \"6th Sep 1993\",\n        \"location\": \"Galbally\"\n    },\n    {\n        \"memorial_number\": 158,\n        \"name\": \"John Hanrahan\",\n        \"date\": \"May 18th 1821\",\n        \"location\": \"Galbally\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

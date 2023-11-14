@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Kja69yKhKTKvNvxU0TxN09whzpGO",
+    "object": "chat.completion",
+    "created": 1699952466,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 298,
+        "total_tokens": 3722
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 216,\n        \"name\": \"Robert O'Neill\",\n        \"date\": \"2nd Jan 1869\",\n        \"location\": null\n    },\n    {\n        \"memorial_number\": 297,\n        \"name\": \"Michael Martin\",\n        \"date\": \"April 1860\",\n        \"location\": \"Lizard\"\n    },\n    {\n        \"memorial_number\": 298,\n        \"name\": \"Con Quinlan\",\n        \"date\": \"7 Oct 1958\",\n        \"location\": \"Annagh Galty\"\n    },\n    {\n        \"memorial_number\": 232,\n        \"name\": \"Dinnis Daly\",\n        \"date\": \"May 19th 1767\",\n        \"location\": \"Galbally\"\n    },\n    {\n        \"memorial_number\": 233,\n        \"name\": \"Edmund Ryan\",\n        \"date\": \"April 1st 1801\",\n        \"location\": null\n    },\n    {\n        \"memorial_number\": 235,\n        \"name\": \"Patrick Ryan\",\n        \"date\": \"March 7th 1963\",\n        \"location\": null\n    },\n    {\n        \"memorial_number\": 265,\n        \"name\": \"Michael Corbett\",\n        \"date\": \"12th June 1906\",\n        \"location\": \"Galbally\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KjWRjyMJVVeh5djU6UFHHBnPfJAq",
+    "object": "chat.completion",
+    "created": 1699952239,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 261,
+        "total_tokens": 3685
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\"memorial_number\": 139, \"name\": null, \"date\": null, \"location\": \"Galbally\"},\n    {\"memorial_number\": 320, \"name\": \"William O'Sullivan\", \"date\": \"Dec 16th 1843\", \"location\": \"Ballynamona\"},\n    {\"memorial_number\": 321, \"name\": \"Dan Ryan\", \"date\": \"4 April 2017\", \"location\": \"Ballyslateen Golden & Barra, Galbally\"},\n    {\"memorial_number\": null, \"name\": null, \"date\": \"20 Jun 1976\", \"location\": null},\n    {\"memorial_number\": 292, \"name\": \"Daniel Hysaght\", \"date\": \"Jan 20th 1970\", \"location\": \"Galbally\"},\n    {\"memorial_number\": 249, \"name\": \"Wm Morrissey\", \"date\": \"Aug 18 1963\", \"location\": null},\n    {\"memorial_number\": 250, \"name\": \"Mrs. Dr. Wm Hennessy nee Alice Donovan\", \"date\": \"Nov 30th 1920\", \"location\": null}\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

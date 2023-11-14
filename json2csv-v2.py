@@ -57,7 +57,9 @@ def process_json_files(folder_path, csv_path):
             print(f"Unexpected error in file {json_file}: {e}")
 
 
-json_folder_path = 'PATH_TO_JSON_FOLDER'  # Replace with actual folder path
-csv_file_path = 'PATH_TO_CSV_FILE'  # Replace with actual file path
+# Replace with actual folder path
+json_folder_path = '/Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest/json_outputs'
+# Replace with actual file path
+csv_file_path = '/Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest/memorials.csv'
 
 process_json_files(json_folder_path, csv_file_path)

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KjYFGnWDx7P0LEMmVf7LIruR2lj3",
+    "object": "chat.completion",
+    "created": 1699952351,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 263,
+        "total_tokens": 3687
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": \"307\",\n        \"name\": \"Patrick Moroney\",\n        \"date\": \"3rd August 1938\",\n        \"location\": \"Galbally\"\n    },\n    {\n        \"memorial_number\": \"307\",\n        \"name\": \"Nellie Moroney\",\n        \"date\": \"5th Oct 1915\",\n        \"location\": \"Galbally\"\n    },\n    {\n        \"memorial_number\": \"304\",\n        \"name\": \"Mary Moore\",\n        \"date\": \"Augt 28th 1855\",\n        \"location\": \"Galbally\"\n    },\n    {\n        \"memorial_number\": \"304\",\n        \"name\": \"Michl Moore\",\n        \"date\": \"July 12th 1853\",\n        \"location\": \"Galbally\"\n    },\n    {\n        \"memorial_number\": \"133\",\n        \"name\": \"William Butler\",\n        \"date\": \"24 August 1806\",\n        \"location\": NULL\n    },\n    {\n        \"memorial_number\": \"133\",\n        \"name\": \"Bridget Butler\",\n        \"date\": \"July 9th, 1809\",\n        \"location\": NULL\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

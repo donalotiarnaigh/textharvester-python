@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KjUQigBeGdcQhigtfZCo93NnIUK7",
+    "object": "chat.completion",
+    "created": 1699952114,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 169,
+        "total_tokens": 3593
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n  {\n    \"memorial_number\": 270,\n    \"name\": \"Mary Dawson\",\n    \"date\": \"July 21 1946\",\n    \"location\": \"Gallbally\"\n  },\n  {\n    \"memorial_number\": 143,\n    \"name\": \"Patrick Condon, Catherine Condon\",\n    \"date\": \"March 24 1940, May 8th 1956\",\n    \"location\": \"Gallbally\"\n  },\n  {\n    \"memorial_number\": 142,\n    \"name\": \"Mary Condon alias Flynn, Catherine Hose Macgrath alias Condon\",\n    \"date\": \"Jan 15th 1826, Dec 5th 1857\",\n    \"location\": \"Gallbally\"\n  }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

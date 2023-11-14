@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KjZ21kMzMV830nCtsaIosPja8YF5",
+    "object": "chat.completion",
+    "created": 1699952400,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 388,
+        "total_tokens": 3812
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n  {\n    \"memorial_number\": 312,\n    \"name\": \"Thadee [Surname]\",\n    \"date\": \"May the 4th 1785\",\n    \"location\": null\n  },\n  {\n    \"memorial_number\": 313,\n    \"name\": \"Elizabeth Cuishen alias O'Leary\",\n    \"date\": \"Apr 10 1809\",\n    \"location\": null\n  },\n  {\n    \"memorial_number\": 318,\n    \"name\": \"Adam Landers\",\n    \"date\": \"3 Jan 1773\",\n    \"location\": null\n  },\n  {\n    \"memorial_number\": 274,\n    \"name\": \"Catherine Lynan (Kitty Harvey)\",\n    \"date\": \"1914 - 2003\",\n    \"location\": null\n  },\n  {\n    \"memorial_number\": 275,\n    \"name\": \"Mary Corbett (Nee Harvey)\",\n    \"date\": \"9th May 1960\",\n    \"location\": null\n  },\n  {\n    \"memorial_number\": 276,\n    \"name\": \"Harney Family\",\n    \"date\": null,\n    \"location\": \"Corderry\"\n  },\n  {\n    \"memorial_number\": 254,\n    \"name\": \"William Kenefick\",\n    \"date\": \"Feb 8 1984\",\n    \"location\": \"Gedwell\"\n  },\n  {\n    \"memorial_number\": 255,\n    \"name\": \"Josephine Conway Mackenna\",\n    \"date\": \"Feb 3 1978\",\n    \"location\": null\n  },\n  {\n    \"memorial_number\": 256,\n    \"name\": \"Padrich Conway\",\n    \"date\": \"Dec 5th 1894\",\n    \"location\": null\n  }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

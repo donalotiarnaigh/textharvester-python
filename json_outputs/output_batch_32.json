@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KjaZkdw8Kt6W9Wdd15zS0iKcapqo",
+    "object": "chat.completion",
+    "created": 1699952495,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 370,
+        "total_tokens": 3794
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 371,\n        \"name\": \"Kate Sheehy nee Costeran\",\n        \"date\": \"June 1, 2009\",\n        \"location\": \"Ballinavana Madingtown\"\n    },\n    {\n        \"memorial_number\": 372,\n        \"name\": \"Thomas Costeran\",\n        \"date\": \"10 Jan 1971\",\n        \"location\": \"Illeighues\"\n    },\n    {\n        \"memorial_number\": 373,\n        \"name\": \"David Costeran\",\n        \"date\": \"Nov 19, 1946\",\n        \"location\": \"Mooresfort Lattin\"\n    },\n    {\n        \"memorial_number\": NULL,\n        \"name\": NULL,\n        \"date\": NULL,\n        \"location\": NULL\n    },\n    {\n        \"memorial_number\": 240,\n        \"name\": \"very reverend Christopher O'Donovan\",\n        \"date\": \"December 25, 1988\",\n        \"location\": \"Gaultisky\"\n    },\n    {\n        \"memorial_number\": 242,\n        \"name\": \"Mary Moroney nee Fenton\",\n        \"date\": \"15th Novr 1952\",\n        \"location\": \"Gaultisky\"\n    },\n    {\n        \"memorial_number\": 267,\n        \"name\": \"John O'Donnell N.T. Glenbrohane\",\n        \"date\": \"Dec 18th 1943\",\n        \"location\": NULL\n    },\n    {\n        \"memorial_number\": 280,\n        \"name\": \"Catherine Pholy\",\n        \"date\": \"Aug 14th 1788\",\n        \"location\": NULL\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KjUDXAH5bCD29gggdS3CxD88HJhY",
+    "object": "chat.completion",
+    "created": 1699952101,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 290,
+        "total_tokens": 3714
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\"memorial_number\": 163, \"name\": \"Owen Butler\", \"date\": \"NULL\", \"location\": \"Garrybally\"},\n    {\"memorial_number\": 165, \"name\": \"Jn Casey\", \"date\": \"June 28th 1818\", \"location\": \"Garrybally\"},\n    {\"memorial_number\": 167, \"name\": \"NULL\", \"date\": \"NULL\", \"location\": \"NULL\"},\n    {\"memorial_number\": 174, \"name\": \"Johanna Frain\", \"date\": \"August 1st 1804\", \"location\": \"Garrybally\"},\n    {\"memorial_number\": 177, \"name\": \"William Mallane\", \"date\": \"Oct 28th 1900\", \"location\": \"Garrybally\"},\n    {\"memorial_number\": 179, \"name\": \"NULL\", \"date\": \"NULL\", \"location\": \"NULL\"},    \n    {\"memorial_number\": \"NULL\", \"name\": \"NULL\", \"date\": \"NULL\", \"location\": \"NULL\"},\n    {\"memorial_number\": \"NULL\", \"name\": \"NULL\", \"date\": \"NULL\", \"location\": \"NULL\"},\n    {\"memorial_number\": \"NULL\", \"name\": \"NULL\", \"date\": \"NULL\", \"location\": \"NULL\"}\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

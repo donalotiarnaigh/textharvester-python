@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8KjY0Q92XcFLRZ1el4l0dg4aeWNEW",
+    "object": "chat.completion",
+    "created": 1699952336,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 144,
+        "total_tokens": 3568
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n  {\n    \"memorial_number\": 305,\n    \"name\": \"Mary Sloane nee Dunne\",\n    \"date\": \"June 9, 1911\",\n    \"location\": \"Galbally\"\n  },\n  {\n    \"memorial_number\": 306,\n    \"name\": \"Mary Sampson\",\n    \"date\": \"Jan 23, 1859\",\n    \"location\": \"Galbally\"\n  },\n  {\n    \"memorial_number\": 149,\n    \"name\": \"Mgt Ryan nee Stamerstan\",\n    \"date\": \"Sept 9, 1918\",\n    \"location\": null\n  }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}
