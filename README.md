@@ -36,11 +36,11 @@ HG TextHarvester comprises three main scripts:
 - Converts each page of a PDF document into separate JPG images.
 - Usage: open `pdf2jpg.py` in vscode, replace filepath placeholders with actual filepaths within the scripts. Save the file and run the script using the `run` button in vscode or `python pdf2jpg.py`
 
-2. **OCR and Text Categorization (`vision-v3.py`)**:
+2. **OCR and Text Categorization (`vision-v4.py`)**:
 
 - Processes JPG images using OCR to extract text.
 - Saves OCR results in JSON format.
-- Usage: type `python vision-v3.py <input_folder_path>` in your temrinal before pressing enter. Monitor the progress in the terminal, looking out for error codes returned by openai
+- Usage: type `python vision-v4.py <input_folder_path>` in your temrinal before pressing enter. Monitor the progress in the terminal, looking out for error codes returned by openai
 
 3. **JSON to CSV Conversion (`json2csv-v2.py`)**:
 
@@ -52,7 +52,7 @@ HG TextHarvester comprises three main scripts:
 
 1. **Prepare your PDFs**: Place your PDFs in an accessible folder.
 2. **Convert PDFs to JPGs**: Run `pdf2jpg.py` for each PDF.
-3. **Process Images with OCR**: Run `vision-v3.py` on the folder containing JPGs.
+3. **Process Images with OCR**: Run `vision-v4.py` on the folder containing JPGs.
 4. **Compile Data to CSV**: Run `json2csv-v2.py` to collate all OCR data into a CSV file.
 
 ## Troubleshooting
