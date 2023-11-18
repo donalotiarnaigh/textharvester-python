@@ -2,7 +2,7 @@
 
 ## Introduction
 
-HG TextHarvester is a basic toolkit designed for digitizing and extracting textual data from historic graves' documents. This guide provides step-by-step instructions on how to use HG TextHarvester to convert PDFs to images, perform OCR (Optical Character Recognition) to extract text, and compile the data into CSV files for easy analysis and record-keeping.
+HG TextHarvester is a basic toolkit designed for digitizing and extracting textual data from Historic Graves Project documents. This guide provides step-by-step instructions on how to use HG TextHarvester to convert PDFs to images, perform OCR (Optical Character Recognition), and handwriting recognition (HWR) to extract text, and compile the data into CSV files for easy analysis and record-keeping.
 
 ## System Requirements
 
