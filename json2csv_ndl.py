@@ -58,8 +58,8 @@ def process_json_files(folder_path, csv_path):
 
 
 # Replace with actual folder path
-json_folder_path = '/Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest/json_outputs'
+json_folder_path = 'PATH_TO_OUTPUT_JSONS'
 # Replace with actual file path
-csv_file_path = '/Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest/memorials.csv'
+csv_file_path = 'PATH_TO_OUTPUT_CSV'
 
 process_json_files(json_folder_path, csv_file_path)

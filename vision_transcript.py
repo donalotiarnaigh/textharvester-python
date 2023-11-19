@@ -1,3 +1,5 @@
+# This script will attempt to extract the handwritten inscription text for each memorial_number
+
 import os
 import json
 import base64
@@ -31,7 +33,7 @@ def process_images(image_paths, api_key, output_directory, batch_number):
             "content": [
                 {
                     "type": "text",
-                    "text": "You're an expert in OCR and are working in a heritage/genealogy context assisting in data processing post graveyard survey.Examine these images and extract the names,dates and suspected location names for each memorial number-no other fields..Respond in json format only.e.g {memorial_number: 69, name: John Doe, date: Jan 1, 1800, location: Springfield}. If no memorial number,name, date or location is visible in an image,return a json with NULL in each field"
+                    "text": "You're an expert in OCR and are working in a heritage/genealogy context assisting in data processing post graveyard survey.Examine these images and extract the handwritten text from the inscription field for each memorial number-no other fields..Respond in json format only.e.g {memorial_number: 69, inscription: SACRED HEART OF JESUS HAVE MERCY ON THE SOUL OF THOMAS RUANE LISNAGROOBE WHO DIED APRIL 16th 1923 AGED 74 YRS AND OF HIS WIFE MARGARET RUANE DIED JULY 26th 1929 AGED 78 YEARS R. I. P .ERECTED BY THEIR FOND SON THOMAS RUANE PHILADELPHIA USA}. transcription fields should be all one line. If no memorial number or inscription is visible in an image,return a json with NULL in each field"
                 }
             ]
         }
@@ -96,7 +98,7 @@ if __name__ == "__main__":
     folder_path = sys.argv[1]
     api_key = os.getenv('OPENAI_API_KEY')
     # Change to your output directory path
-    output_directory = "/Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest/json_outputs"
+    output_directory = "PATH_TO_OUTPUT_JSON_FOLDER"
     main(folder_path, api_key, output_directory)
 
 # To run this script, type 'python3 vision-v4.py {{path/to/input/folder}}' in terminal

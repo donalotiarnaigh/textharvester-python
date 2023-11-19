@@ -21,8 +21,8 @@ def convert_pdf_to_jpg(pdf_path, output_folder):
 
 # Path to the PDF file
 # Replace with your PDF file path
-pdf_path = 'PDF_PATH'
+pdf_path = 'PATH_TO_PDF'
 # Replace with your desired output folder
-output_folder = 'OUTPUT_FOLDER_PATH'
+output_folder = 'PATH_TO_OUTPUT_FOLDER'
 
 convert_pdf_to_jpg(pdf_path, output_folder)
