@@ -1,18 +1,18 @@
 {
-    "id": "chatcmpl-8N0AI0XMkpVbXWoyh4q0QDx23gsXv",
+    "id": "chatcmpl-8N59Z9oUaz9hWEYlKqRDa1w8NYs12",
     "object": "chat.completion",
-    "created": 1700492870,
+    "created": 1700512045,
     "model": "gpt-4-1106-vision-preview",
     "usage": {
-        "prompt_tokens": 3346,
-        "completion_tokens": 626,
-        "total_tokens": 3972
+        "prompt_tokens": 3424,
+        "completion_tokens": 236,
+        "total_tokens": 3660
     },
     "choices": [
         {
             "message": {
                 "role": "assistant",
-                "content": "You've provided images of handwritten forms documenting gravestone inscriptions from a graveyard survey. Each form includes details such as the graveyard name, inscription on the gravestone, memorial number, and sometimes sketches of the gravestone shapes. Let's transcribe the visible inscriptions and other relevant details from the forms.\n\n**First Image:**\n- Graveyard name: (Partially obscured) _Looks like \"DACWS\" with additional writing \"NT. Ford 9/12\"_\n- Inscription: (Top form)\n  - Erected  \n    By  \n    Rodger Kiely of  \n    Mulberry Lane.\n  - Memorial Number: 100\n  - Sketch of shape: Headstone with \"IHS\"\n- Inscription: (Bottom form)\n  - IHS  \n    Erected  \n    By Richard Hann**on in  \n    Memory of his Mother  \n    Elizabeth Ha**mon  \n    Died December 14th 1946  \n    Aged 64 years\n  - Memorial Number: 101\n  - Sketch of shape: Headstone with \"IHS\" and a cross\n\n**Second Image:**\n- Graveyard name: OLCHS\n- Inscription: (Top form)\n  - Erected in Memory of  \n    for the Soul of  \n    Anne Fitzgerald  \n    Died July 13 1856  \n    Aged 93 years\n  - Memorial Number: 86\n  - Sketch of shape: Table tomb\n- Inscription: (Middle form)\n  - Erected By John Condon of  \n    Flemings**town in memory  \n    of his father Thomas Condon of  \n    Golden Tavern who died  \n    A.D. 1848 also his deceased friends\n  - Memorial Number: 87\n  - Sketch of shape: Headstone with a cross at the top\n\n**Third Image:**\n- Graveyard name: OLCHS M**Town Graveyard\n- Inscription: (Top form)\n  - Erected by  \n    Michael Walsh  \n    Ballybeg  \n    In memory of his father  \n    Thomas Walsh  \n    And his sisters & Brothers  \n    his Nephew  \n    Thomas Cl**k Walsh  \n    1884 - 1968  \n    R.I.P\n  - Memorial Number: 7\n  - Sketch of shape: Headstone with two crosses\n- Inscription: (Bottom form)\n  - IHS  \n    Erected  \n    In Memory of  \n    Patrick Carroll  \n    Died July 28, 1889  \n    Aged 18 yrs  \n    R I P\n  - Memorial Number: 8\n  - Sketch of shape: Headstone\n\nPlease note that some areas are illegible due to various reasons like folds in the paper, writing bleed-through from the other side, or marks that obscure the text. In some instances, it appears that part of the word isn't visible or has been blotted out by ink; I've indicated this with **. For a more accurate transcription, those areas would need to be clarified or guessed in context."
+                "content": "```json\n[\n    {\n        \"memorial_number\": 100,\n        \"name\": \"NULL\",\n        \"date\": \"NULL\",\n        \"location\": \"NULL\"\n    },\n    {\n        \"memorial_number\": 101,\n        \"name\": \"Elizabeth Hanlon\",\n        \"date\": \"December 14, 1946\",\n        \"location\": \"NULL\"\n    },\n    {\n        \"memorial_number\": 86,\n        \"name\": \"Anne Fitzgerald\",\n        \"date\": \"July 13, 1856\",\n        \"location\": \"NULL\"\n    },\n    {\n        \"memorial_number\": 87,\n        \"name\": \"Thomas Condon\",\n        \"date\": \"1848\",\n        \"location\": \"NULL\"\n    },\n    {\n        \"memorial_number\": 7,\n        \"name\": \"Thomas Walsh\",\n        \"date\": \"NULL\",\n        \"location\": \"NULL\"\n    },\n    {\n        \"memorial_number\": 8,\n        \"name\": \"Patrick Carroll\",\n        \"date\": \"July 28, 1889\",\n        \"location\": \"NULL\"\n    }\n]\n```"
             },
             "finish_details": {
                 "type": "stop",

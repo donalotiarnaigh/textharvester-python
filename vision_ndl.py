@@ -6,6 +6,7 @@ import sys
 import csv
 import glob
 import logging
+from tqdm import tqdm  # Import tqdm
 
 # Configure logging
 logging.basicConfig(filename='vision_ndl.log', level=logging.DEBUG,
@@ -38,7 +39,7 @@ def process_images(image_paths, api_key, output_directory, batch_number):
             "content": [
                 {
                     "type": "text",
-                    "text": "You're an expert in OCR and are working in a heritage/genealogy context assisting in data processing post graveyard survey..."
+                    "text": "You're an expert in OCR and are working in a heritage/genealogy context assisting in data processing post graveyard survey.Examine these images and extract the names,dates and suspected location names for each memorial number-no other fields..Respond in JSON format only.e.g {memorial_number: 69, name: John Doe, date: Jan 1, 1800, location: Springfield}. If no memorial number,name, date or location is visible in an image,return a json with NULL in each field"
                 }
             ]
         }
@@ -90,7 +91,11 @@ def main(folder_path, api_key, output_directory):
         logging.error("No JPG files found in the specified directory.")
         return
 
-    for i in range(0, len(image_files), batch_size):
+    total_batches = len(image_files) // batch_size + \
+        (len(image_files) % batch_size > 0)
+
+    # Progress bar with tqdm
+    for i in tqdm(range(0, len(image_files), batch_size), total=total_batches, desc="Processing Batches"):
         batch = image_files[i:i + batch_size]
         batch_number = i // batch_size + 1
         logging.info(f"Processing batch {batch_number}...")
