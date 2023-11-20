@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8N5ijue9MuFF54ilL8WmVIrPUhVaK",
+    "object": "chat.completion",
+    "created": 1700514225,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 261,
+        "total_tokens": 3685
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 31,\n        \"name\": null,\n        \"date\": null,\n        \"location\": \"OLCUS Mitchelstown\"\n    },\n    {\n        \"memorial_number\": 32,\n        \"name\": \"Philip Roane\",\n        \"date\": \"Nov 14 88\",\n        \"location\": null\n    },\n    {\n        \"memorial_number\": 33,\n        \"name\": \"Margaret T. Clarke\",\n        \"date\": \"Dec. 13. 1873\",\n        \"location\": \"Rock Mills\"\n    },\n    {\n        \"memorial_number\": 34,\n        \"name\": \"Mary Murphy\",\n        \"date\": \"July 14. 1876\",\n        \"location\": \"Cork St. Mitchelstown\"\n    },\n    {\n        \"memorial_number\": 35,\n        \"name\": \"James F. (Jimmy) Russell\",\n        \"date\": \"10 April 1990\",\n        \"location\": \"OLCWS Mitchelstown Churchyard\"\n    },\n    {\n        \"memorial_number\": 36,\n        \"name\": \"Gibbons Riordan\",\n        \"date\": null,\n        \"location\": null\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

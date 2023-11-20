@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8N5iTUcT4yRECLQp9JoaeBiVT2mtr",
+    "object": "chat.completion",
+    "created": 1700514209,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 275,
+        "total_tokens": 3699
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n  {\n    \"memorial_number\": 25,\n    \"name\": \"Patrick Corbett of Toorelegan\",\n    \"date\": \"Sept 21st 1857\",\n    \"location\": \"OLCWS h/town Churchyard\"\n  },\n  {\n    \"memorial_number\": 26,\n    \"name\": \"Denis Mahony\",\n    \"date\": \"13th December 1867\",\n    \"location\": \"NULL\"\n  },\n  {\n    \"memorial_number\": 27,\n    \"name\": \"John Finn\",\n    \"date\": \"Dec. 17th 1937\",\n    \"location\": \"OLCWS h/town Churchyard\"\n  },\n  {\n    \"memorial_number\": 28,\n    \"name\": \"Patrick Walsh\",\n    \"date\": \"NULL\",\n    \"location\": \"NULL\"\n  },\n  {\n    \"memorial_number\": 29,\n    \"name\": \"Hannah Walsh\",\n    \"date\": \"NULL\",\n    \"location\": \"OLCWS h/town Churchyard\"\n  },\n  {\n    \"memorial_number\": 30,\n    \"name\": \"Thomas O'Keeffe\",\n    \"date\": \"Feb. 8th 1898\",\n    \"location\": \"NULL\"\n  }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

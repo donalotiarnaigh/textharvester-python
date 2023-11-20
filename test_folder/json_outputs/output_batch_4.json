@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8N5ivbQ103CAP2cT5VDrGPEzi5J7A",
+    "object": "chat.completion",
+    "created": 1700514237,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 268,
+        "total_tokens": 3692
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 37,\n        \"name\": \"Andrew O'Grady\",\n        \"date\": \"NULL\",\n        \"location\": \"O L C W S MI-Town\"\n    },\n    {\n        \"memorial_number\": 38,\n        \"name\": \"Edward Finn\",\n        \"date\": \"Aug 2, 1889\",\n        \"location\": \"NULL\"\n    },\n    {\n        \"memorial_number\": 39,\n        \"name\": \"NULL\",\n        \"date\": \"NULL\",\n        \"location\": \"O L C U S MI-Town Churchyard\"\n    },\n    {\n        \"memorial_number\": 40,\n        \"name\": \"Michael O'Reilly\",\n        \"date\": \"March 5, 1978\",\n        \"location\": \"Knockadea, Ballylanders\"\n    },\n    {\n        \"memorial_number\": 7,\n        \"name\": \"Thomas (KirK) Walsh\",\n        \"date\": \"1968\",\n        \"location\": \"Ballybeg\"\n    },\n    {\n        \"memorial_number\": 8,\n        \"name\": \"Patrick Carroll\",\n        \"date\": \"July 28, 1889\",\n        \"location\": \"NULL\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

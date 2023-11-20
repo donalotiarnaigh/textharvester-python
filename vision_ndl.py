@@ -85,6 +85,8 @@ def process_images(image_paths, api_key, output_directory, batch_number):
 def main(folder_path, api_key, output_directory):
     logging.info(f"Searching for image files in {folder_path}...")
     image_files = glob.glob(os.path.join(folder_path, '*.jpg'))
+    image_files.sort()
+
     batch_size = 3
 
     if not image_files:
