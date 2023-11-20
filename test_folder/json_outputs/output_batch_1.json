@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8MzhcvdIOoxW9FxOky47x1LAXUSNt",
+    "object": "chat.completion",
+    "created": 1700491092,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3346,
+        "completion_tokens": 616,
+        "total_tokens": 3962
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "The images provided are forms documenting inscriptions and details from specific memorials at a graveyard. Below are the transcribed details from each form:\n\n---\n\n**Image 1:**\n- Graveyard name: [Partially visible, the ending is \"DAWS\", the first part is not visible]\n- Memorial Number: 100\n- Inscription: \n   ```\n   Erected\n   By\n   Rodger Kiely of\n   Mulberry Lane.\n   ```\n- Date: [Not filled in]\n- Sketch of shape: A rough sketch of a headstone\n- Types of grave marker selected: Flat slab\n\n---\n\n**Image 2:**\n- Graveyard name: [Partially visible, the first part is not visible, the ending could be interpreted as \"LCWS\"]\n- Memorial Number: \n\n1. No. 86\n   - Inscription: \n     ```\n     ERECTED IN MEMORY OF\n     for the Soul of\n     ANNE FITZGERALD\n     Died July 13, 1856\n     Aged 93 years\n     ```\n   - Date: [Not filled in]\n   - Sketch of shape: A drawing of a headstone with a rounded top\n\n2. No. 87\n   - Inscription: \n     ```\n     ERECTED By John Condon of\n     FlvmingsTown in memory\n     of his father / Thomas Condon of\n     Gurtan Tariff / who died\n     A.D 1848 also his deceased friends\n     ```\n   - Date: [Not filled in]\n   - Sketch of shape: A drawing of a headstone with an irregular top\n\n---\n\n**Image 3:**\n- Graveyard name: OLCHSS MTown Graveyard\n- Memorial Number: \n\n1. No. 7\n   - Inscription: \n     ```\n     Erected by\n     Michael Walsh\n     Ballybeg\n     in memory of his father\n     Thomas Walsh\n     And his sisters & Brothers\n     his Nephew\n     Thomas (Kirn) Walsh\n     1874 - 1968\n     R.I.P\n     ```\n   - Date: [Not filled in]\n   - Sketch of shape: A drawing of a pointed arch-like headstone with crosses\n\n2. No. 8\n   - Inscription: \n     ```\n     HHS\n     Erected\n     In Memory of\n     Patrick Carroll\n     died July 28, 1889\n     Aged 18 yrs\n     R.I.P\n     ```\n   - Date: [Not filled in]\n   - Sketch of shape: A drawing of a headstone with a flat top and slightly sloping sides\n\n---\n\nThe details on these forms are handwritten, and it's clear from the sketches that each form corresponds to a different type of headstone or grave marker. These forms seem to be part of a larger survey or documentation process, likely intended to record the historical and genealogical information contained within the graveyard."
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}
