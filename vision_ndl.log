@@ -1,190 +1,652 @@
-2023-11-20 20:22:11,026 INFO:Script started
-2023-11-20 20:22:11,027 INFO:Starting the image processing script...
-2023-11-20 20:22:11,027 INFO:Searching for image files in /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs...
-2023-11-20 20:22:11,106 INFO:Processing batch 1...
-2023-11-20 20:22:11,107 INFO:Processing images in batch 1
-2023-11-20 20:22:11,107 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_52.jpg
-2023-11-20 20:22:11,108 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_46.jpg
-2023-11-20 20:22:11,109 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_2.jpg
-2023-11-20 20:22:11,110 INFO:Sending request to OpenAI...
-2023-11-20 20:22:11,148 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 20:22:33,583 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2023-11-20 20:22:33,587 INFO:Received response from OpenAI, writing to file...
-2023-11-20 20:22:33,589 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_1.json
-2023-11-20 20:22:33,593 INFO:Processing batch 2...
-2023-11-20 20:22:33,593 INFO:Processing images in batch 2
-2023-11-20 20:22:33,594 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_3.jpg
-2023-11-20 20:22:33,596 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_47.jpg
-2023-11-20 20:22:33,597 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_53.jpg
-2023-11-20 20:22:33,599 INFO:Sending request to OpenAI...
-2023-11-20 20:22:33,609 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 20:22:45,675 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2023-11-20 20:22:45,677 INFO:Received response from OpenAI, writing to file...
-2023-11-20 20:22:45,678 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_2.json
-2023-11-20 20:22:45,680 INFO:Processing batch 3...
-2023-11-20 20:22:45,680 INFO:Processing images in batch 3
-2023-11-20 20:22:45,680 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_45.jpg
-2023-11-20 20:22:45,683 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_51.jpg
-2023-11-20 20:22:45,684 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_1.jpg
-2023-11-20 20:22:45,686 INFO:Sending request to OpenAI...
-2023-11-20 20:22:45,695 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 20:27:20,506 INFO:Script started
-2023-11-20 20:27:20,506 INFO:Starting the image processing script...
-2023-11-20 20:27:20,506 INFO:Searching for image files in /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs...
-2023-11-20 20:27:20,522 INFO:Processing batch 1...
-2023-11-20 20:27:20,522 INFO:Processing images in batch 1
-2023-11-20 20:27:20,522 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_52.jpg
-2023-11-20 20:27:20,523 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_46.jpg
-2023-11-20 20:27:20,525 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_2.jpg
-2023-11-20 20:27:20,525 INFO:Sending request to OpenAI...
-2023-11-20 20:27:20,536 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 20:27:30,957 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2023-11-20 20:27:30,960 INFO:Received response from OpenAI, writing to file...
-2023-11-20 20:27:30,961 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_1.json
-2023-11-20 20:27:30,965 INFO:Processing batch 2...
-2023-11-20 20:27:30,965 INFO:Processing images in batch 2
-2023-11-20 20:27:30,965 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_3.jpg
-2023-11-20 20:27:30,968 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_47.jpg
-2023-11-20 20:27:30,969 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_53.jpg
-2023-11-20 20:27:30,971 INFO:Sending request to OpenAI...
-2023-11-20 20:27:30,979 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 20:27:44,575 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2023-11-20 20:27:44,577 INFO:Received response from OpenAI, writing to file...
-2023-11-20 20:27:44,579 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_2.json
-2023-11-20 20:27:44,582 INFO:Processing batch 3...
-2023-11-20 20:27:44,582 INFO:Processing images in batch 3
-2023-11-20 20:27:44,582 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_45.jpg
-2023-11-20 20:27:44,584 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_51.jpg
-2023-11-20 20:27:44,586 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_1.jpg
-2023-11-20 20:27:44,587 INFO:Sending request to OpenAI...
-2023-11-20 20:27:44,597 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 20:27:57,272 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2023-11-20 20:27:57,275 INFO:Received response from OpenAI, writing to file...
-2023-11-20 20:27:57,276 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_3.json
-2023-11-20 20:27:57,279 INFO:Processing batch 4...
-2023-11-20 20:27:57,280 INFO:Processing images in batch 4
-2023-11-20 20:27:57,280 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_50.jpg
-2023-11-20 20:27:57,282 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_44.jpg
-2023-11-20 20:27:57,284 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_40.jpg
-2023-11-20 20:27:57,285 INFO:Sending request to OpenAI...
-2023-11-20 20:27:57,295 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 21:01:19,048 INFO:Script started
-2023-11-20 21:01:19,049 INFO:Starting the image processing script...
-2023-11-20 21:01:19,049 INFO:Searching for image files in /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs...
-2023-11-20 21:01:19,064 INFO:Processing batch 1...
-2023-11-20 21:01:19,064 INFO:Processing images in batch 1
-2023-11-20 21:01:19,064 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_1.jpg
-2023-11-20 21:01:19,065 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_10.jpg
-2023-11-20 21:01:19,066 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_11.jpg
-2023-11-20 21:01:19,067 INFO:Sending request to OpenAI...
-2023-11-20 21:01:19,078 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 21:01:33,057 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2023-11-20 21:01:33,061 INFO:Received response from OpenAI, writing to file...
-2023-11-20 21:01:33,061 ERROR:Unexpected error: [Errno 2] No such file or directory: 'PATH_TO_OUTPUT_FOLDER/output_batch_1.json'
-2023-11-20 21:01:33,064 INFO:Processing batch 2...
-2023-11-20 21:01:33,064 INFO:Processing images in batch 2
-2023-11-20 21:01:33,064 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_12.jpg
-2023-11-20 21:01:33,067 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_13.jpg
-2023-11-20 21:01:33,069 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_14.jpg
-2023-11-20 21:01:33,071 INFO:Sending request to OpenAI...
-2023-11-20 21:01:33,080 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 21:01:47,600 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2023-11-20 21:01:47,602 INFO:Received response from OpenAI, writing to file...
-2023-11-20 21:01:47,603 ERROR:Unexpected error: [Errno 2] No such file or directory: 'PATH_TO_OUTPUT_FOLDER/output_batch_2.json'
-2023-11-20 21:01:47,607 INFO:Processing batch 3...
-2023-11-20 21:01:47,607 INFO:Processing images in batch 3
-2023-11-20 21:01:47,608 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_15.jpg
-2023-11-20 21:01:47,610 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_16.jpg
-2023-11-20 21:01:47,612 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_17.jpg
-2023-11-20 21:01:47,614 INFO:Sending request to OpenAI...
-2023-11-20 21:01:47,623 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 21:01:59,989 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2023-11-20 21:01:59,991 INFO:Received response from OpenAI, writing to file...
-2023-11-20 21:01:59,991 ERROR:Unexpected error: [Errno 2] No such file or directory: 'PATH_TO_OUTPUT_FOLDER/output_batch_3.json'
-2023-11-20 21:01:59,994 INFO:Processing batch 4...
-2023-11-20 21:01:59,994 INFO:Processing images in batch 4
-2023-11-20 21:01:59,994 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_18.jpg
-2023-11-20 21:01:59,996 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_19.jpg
-2023-11-20 21:01:59,998 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_2.jpg
-2023-11-20 21:01:59,999 INFO:Sending request to OpenAI...
-2023-11-20 21:02:00,007 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 21:02:24,621 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2023-11-20 21:02:24,622 INFO:Received response from OpenAI, writing to file...
-2023-11-20 21:02:24,622 ERROR:Unexpected error: [Errno 2] No such file or directory: 'PATH_TO_OUTPUT_FOLDER/output_batch_4.json'
-2023-11-20 21:02:24,624 INFO:Processing batch 5...
-2023-11-20 21:02:24,624 INFO:Processing images in batch 5
-2023-11-20 21:02:24,624 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_20.jpg
-2023-11-20 21:02:24,627 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_21.jpg
-2023-11-20 21:02:24,629 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_22.jpg
-2023-11-20 21:02:24,630 INFO:Sending request to OpenAI...
-2023-11-20 21:02:24,639 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 21:02:39,311 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2023-11-20 21:02:39,312 INFO:Received response from OpenAI, writing to file...
-2023-11-20 21:02:39,312 ERROR:Unexpected error: [Errno 2] No such file or directory: 'PATH_TO_OUTPUT_FOLDER/output_batch_5.json'
-2023-11-20 21:02:39,316 INFO:Processing batch 6...
-2023-11-20 21:02:39,316 INFO:Processing images in batch 6
-2023-11-20 21:02:39,316 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_23.jpg
-2023-11-20 21:02:39,319 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_24.jpg
-2023-11-20 21:02:39,320 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_25.jpg
-2023-11-20 21:02:39,322 INFO:Sending request to OpenAI...
-2023-11-20 21:02:39,331 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 21:03:13,820 INFO:Script started
-2023-11-20 21:03:13,820 INFO:Starting the image processing script...
-2023-11-20 21:03:13,820 INFO:Searching for image files in /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs...
-2023-11-20 21:03:13,832 INFO:Processing batch 1...
-2023-11-20 21:03:13,832 INFO:Processing images in batch 1
-2023-11-20 21:03:13,832 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_1.jpg
-2023-11-20 21:03:13,833 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_10.jpg
-2023-11-20 21:03:13,835 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_11.jpg
-2023-11-20 21:03:13,836 INFO:Sending request to OpenAI...
-2023-11-20 21:03:13,847 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 21:03:24,676 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2023-11-20 21:03:24,679 INFO:Received response from OpenAI, writing to file...
-2023-11-20 21:03:24,683 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_1.json
-2023-11-20 21:03:24,686 INFO:Processing batch 2...
-2023-11-20 21:03:24,686 INFO:Processing images in batch 2
-2023-11-20 21:03:24,686 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_12.jpg
-2023-11-20 21:03:24,688 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_13.jpg
-2023-11-20 21:03:24,690 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_14.jpg
-2023-11-20 21:03:24,691 INFO:Sending request to OpenAI...
-2023-11-20 21:03:24,701 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 21:03:36,452 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2023-11-20 21:03:36,453 INFO:Received response from OpenAI, writing to file...
-2023-11-20 21:03:36,453 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_2.json
-2023-11-20 21:03:36,456 INFO:Processing batch 3...
-2023-11-20 21:03:36,456 INFO:Processing images in batch 3
-2023-11-20 21:03:36,456 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_15.jpg
-2023-11-20 21:03:36,458 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_16.jpg
-2023-11-20 21:03:36,460 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_17.jpg
-2023-11-20 21:03:36,462 INFO:Sending request to OpenAI...
-2023-11-20 21:03:36,470 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 21:03:53,120 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2023-11-20 21:03:53,123 INFO:Received response from OpenAI, writing to file...
-2023-11-20 21:03:53,124 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_3.json
-2023-11-20 21:03:53,128 INFO:Processing batch 4...
-2023-11-20 21:03:53,128 INFO:Processing images in batch 4
-2023-11-20 21:03:53,128 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_18.jpg
-2023-11-20 21:03:53,131 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_19.jpg
-2023-11-20 21:03:53,133 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_2.jpg
-2023-11-20 21:03:53,134 INFO:Sending request to OpenAI...
-2023-11-20 21:03:53,143 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 21:04:03,179 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2023-11-20 21:04:03,182 INFO:Received response from OpenAI, writing to file...
-2023-11-20 21:04:03,183 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_4.json
-2023-11-20 21:04:03,187 INFO:Processing batch 5...
-2023-11-20 21:04:03,187 INFO:Processing images in batch 5
-2023-11-20 21:04:03,187 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_20.jpg
-2023-11-20 21:04:03,189 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_21.jpg
-2023-11-20 21:04:03,191 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_22.jpg
-2023-11-20 21:04:03,193 INFO:Sending request to OpenAI...
-2023-11-20 21:04:03,202 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
-2023-11-20 21:04:15,467 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
-2023-11-20 21:04:15,470 INFO:Received response from OpenAI, writing to file...
-2023-11-20 21:04:15,472 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_5.json
-2023-11-20 21:04:15,475 INFO:Processing batch 6...
-2023-11-20 21:04:15,475 INFO:Processing images in batch 6
-2023-11-20 21:04:15,475 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_23.jpg
-2023-11-20 21:04:15,477 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_24.jpg
-2023-11-20 21:04:15,478 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_25.jpg
-2023-11-20 21:04:15,480 INFO:Sending request to OpenAI...
-2023-11-20 21:04:15,489 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:15:20,208 INFO:Script started
+2023-11-28 21:15:20,208 INFO:Starting the image processing script...
+2023-11-28 21:15:20,208 INFO:Searching for image files in /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs...
+2023-11-28 21:15:20,209 INFO:Processing images in batch 1
+2023-11-28 21:15:20,209 INFO:Processing images in batch 2
+2023-11-28 21:15:20,209 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_1.jpg
+2023-11-28 21:15:20,209 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_11.jpg
+2023-11-28 21:15:20,211 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_10.jpg
+2023-11-28 21:15:20,211 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_12.jpg
+2023-11-28 21:15:20,212 INFO:Sending request to OpenAI...
+2023-11-28 21:15:20,213 INFO:Sending request to OpenAI...
+2023-11-28 21:15:20,239 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:15:20,239 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:15:30,465 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:15:30,466 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:15:30 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '8540', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '457', 'x-ratelimit-remaining-tokens': '6774', 'x-ratelimit-reset-requests': '2h2m37.12s', 'x-ratelimit-reset-tokens': '19.355s', 'x-request-id': '3d9dd6c8d784cd0a0da106fbf8775f4d', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=LKyhFg59N1JxltpjhhvYNpS1fcxRG2GizrpukHuuDS0-1701206130-0-Adx+9uAUeX5fNfaIye8MOA2w6Xe2RNpojax2VXk6MHZk1UhQFi4Q1jOK7aP/p0E94fuFyCwO11kD0CvYqNXW9mI=; path=/; expires=Tue, 28-Nov-23 21:45:30 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=K0Bo41y3QG7oo0x6ydRZlF6RqsqlAS_y19buJJdM05k-1701206130456-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a02cc8242a62-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:15:30,466 INFO:Rate Limit (Requests): 500, Remaining: 457, Reset in: 2h2m37.12s
+2023-11-28 21:15:30,466 INFO:Rate Limit (Tokens): 10000, Remaining: 6774, Reset in: 19.355s
+2023-11-28 21:15:30,466 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:15:30,469 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_2.json
+2023-11-28 21:15:30,470 INFO:Processing images in batch 3
+2023-11-28 21:15:30,470 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_13.jpg
+2023-11-28 21:15:30,472 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_14.jpg
+2023-11-28 21:15:30,473 INFO:Sending request to OpenAI...
+2023-11-28 21:15:30,477 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:15:45,927 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:15:45,930 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:15:45 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '21787', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '458', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '1h59m44.369s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': '862588d606bf29e3f8934de0376d602b', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=N0Ohc681rG_Se0S.koMIVIUQrIGN8l52o2VSN_mn8Ko-1701206145-0-ASC4VxTaORc/4H1M3ulqx/KvfzRzhzgFUERnqkl3RaRKCFatkP+O6JV0zD6Ze2w5LYny3wzJZ2XrdI/H4WbmdGg=; path=/; expires=Tue, 28-Nov-23 21:45:45 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=lzZ6DyBaYoAZwb7M4QXCjHmVu3cHsSMLc1k.dVGRQvA-1701206145932-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a02ccfe6998c-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:15:45,930 INFO:Rate Limit (Requests): 500, Remaining: 458, Reset in: 1h59m44.369s
+2023-11-28 21:15:45,930 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:15:45,930 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:15:45,932 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_1.json
+2023-11-28 21:15:45,936 INFO:Processing images in batch 4
+2023-11-28 21:15:45,936 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_15.jpg
+2023-11-28 21:15:45,938 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_16.jpg
+2023-11-28 21:15:45,940 INFO:Sending request to OpenAI...
+2023-11-28 21:15:45,947 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:15:49,408 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:15:49,411 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:15:49 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '17594', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '456', 'x-ratelimit-remaining-tokens': '6798', 'x-ratelimit-reset-requests': '2h5m20.072s', 'x-ratelimit-reset-tokens': '19.209s', 'x-request-id': 'e8310f28941ee56cd191afbddcd086a3', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=6b701TcQSTceEma4D0a.jbXcV9qSWr0NlKJHlGJdmMA-1701206149-0-AfoJ0iOA4b9WIpz6wtzf+jcQvcGJCt2RnlfEDjOWo7sHiwydPh1l4fRejObUEIzKRwP++ihEDRMmRKF/o28JyPw=; path=/; expires=Tue, 28-Nov-23 21:45:49 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=wAZvbqGGKV94dbOVzHdYv9jK7.qcojgu3tHziK4FTDY-1701206149405-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a06c5990d29f-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:15:49,411 INFO:Rate Limit (Requests): 500, Remaining: 456, Reset in: 2h5m20.072s
+2023-11-28 21:15:49,411 INFO:Rate Limit (Tokens): 10000, Remaining: 6798, Reset in: 19.209s
+2023-11-28 21:15:49,411 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:15:49,413 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_3.json
+2023-11-28 21:15:49,417 INFO:Processing images in batch 5
+2023-11-28 21:15:49,417 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_17.jpg
+2023-11-28 21:15:49,419 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_18.jpg
+2023-11-28 21:15:49,421 INFO:Sending request to OpenAI...
+2023-11-28 21:15:49,427 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:15:57,576 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:15:57,579 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:15:57 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '6928', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '454', 'x-ratelimit-remaining-tokens': '6718', 'x-ratelimit-reset-requests': '2h10m46.748s', 'x-ratelimit-reset-tokens': '19.688s', 'x-request-id': '870f14a50eb33702b8f0aa9858b6321b', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=VRUQgTjtUUe.M1yTt.tDhbaaIC6B3Jo5IaY35VKcihQ-1701206157-0-AbrVQ3yPve4yMbEKxayy/r3Cr4X+PqdpYD9irbdtQuT2y2IpvZxbnOPtcyVylcE2eCeE2IuQaAlKDZPMQpy0wHQ=; path=/; expires=Tue, 28-Nov-23 21:45:57 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=kfnh75.S_CoBIlJJUEdG2p4GTnsVioiEPDE5kkXkDRs-1701206157610-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a0e2ea01153e-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:15:57,580 INFO:Rate Limit (Requests): 500, Remaining: 454, Reset in: 2h10m46.748s
+2023-11-28 21:15:57,580 INFO:Rate Limit (Tokens): 10000, Remaining: 6718, Reset in: 19.688s
+2023-11-28 21:15:57,580 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:15:57,582 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_5.json
+2023-11-28 21:15:57,585 INFO:Processing images in batch 6
+2023-11-28 21:15:57,585 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_19.jpg
+2023-11-28 21:15:57,587 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_2.jpg
+2023-11-28 21:15:57,589 INFO:Sending request to OpenAI...
+2023-11-28 21:15:57,595 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:15:57,762 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:15:57,763 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:15:57 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '9951', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '455', 'x-ratelimit-remaining-tokens': '7754', 'x-ratelimit-reset-requests': '2h7m57.436s', 'x-ratelimit-reset-tokens': '13.475s', 'x-request-id': '5213dcb2885851ad4a8755df73db9cc6', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=Ww._4zb_n5l35Ih98ZozG6hlKFoy3bfhaV4dA3ZSY2g-1701206157-0-AReMuXJ9kd6PXSjW/VmGHLmV9zIxN/WFekGVNZuZpz3KIz09yLN0FGr0AZGj3CGva4SBv9lf+J++MG3Tdf9caHo=; path=/; expires=Tue, 28-Nov-23 21:45:57 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=B_sTec83EGK53obhWnuSDOGeLtXz6tYiZMbpLe._MmM-1701206157765-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a0cd4a047024-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:15:57,763 INFO:Rate Limit (Requests): 500, Remaining: 455, Reset in: 2h7m57.436s
+2023-11-28 21:15:57,764 INFO:Rate Limit (Tokens): 10000, Remaining: 7754, Reset in: 13.475s
+2023-11-28 21:15:57,764 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:15:57,765 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_4.json
+2023-11-28 21:15:57,768 INFO:Processing images in batch 7
+2023-11-28 21:15:57,769 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_3.jpg
+2023-11-28 21:15:57,771 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_32.jpg
+2023-11-28 21:15:57,772 INFO:Sending request to OpenAI...
+2023-11-28 21:15:57,778 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:16:09,206 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:16:09,209 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:16:09 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '9643', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '452', 'x-ratelimit-remaining-tokens': '4940', 'x-ratelimit-reset-requests': '2h16m23.609s', 'x-ratelimit-reset-tokens': '30.354s', 'x-request-id': '92f701ddc05b24c7a34721da0b91ceaa', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=VKfUNIp9bFA6oaSU2VvJLc2RlO4SgfWg0IYg77xsjE0-1701206169-0-AZqEWfQ3jIGeS39R8Wh3c4qJ/QaX65LAtkV86b7LEZa3NUjQiY/jl28OnEqLP6P9M952Vf4P+ZDyr8FuctzGIQ8=; path=/; expires=Tue, 28-Nov-23 21:46:09 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=7jOgStPIVd8.7Qjg_0F3Zj.zAJ4eVXcxTSt0n_aN8aU-1701206169154-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a117df4dd536-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:16:09,209 INFO:Rate Limit (Requests): 500, Remaining: 452, Reset in: 2h16m23.609s
+2023-11-28 21:16:09,209 INFO:Rate Limit (Tokens): 10000, Remaining: 4940, Reset in: 30.354s
+2023-11-28 21:16:09,209 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:16:09,210 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_7.json
+2023-11-28 21:16:09,214 INFO:Processing images in batch 8
+2023-11-28 21:16:09,215 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_33.jpg
+2023-11-28 21:16:09,217 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_34.jpg
+2023-11-28 21:16:09,218 INFO:Sending request to OpenAI...
+2023-11-28 21:16:09,225 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:16:11,577 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:16:11,579 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:16:11 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '11862', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '453', 'x-ratelimit-remaining-tokens': '6552', 'x-ratelimit-reset-requests': '2h13m30.844s', 'x-ratelimit-reset-tokens': '20.686s', 'x-request-id': 'efa6cc32d60e97128532ff20e914ba3c', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=ncsD2MwHXLAgY8jKxuRWeZfdYu8Bwb0orkv3CpnBmb4-1701206171-0-Ab5cTSox6XRyrmxtFR5KoALjN8BoQWUcQDtQxjnEjK7kP12waBk2TxLQgde5A1uOAib1Ev4gSJoNBZJgmNhCcj4=; path=/; expires=Tue, 28-Nov-23 21:46:11 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=4e5t.m0jj.OTLgV.qOi7_2Xok5A5EpyrtCX6onF._kg-1701206171485-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a1170e1b2a31-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:16:11,579 INFO:Rate Limit (Requests): 500, Remaining: 453, Reset in: 2h13m30.844s
+2023-11-28 21:16:11,579 INFO:Rate Limit (Tokens): 10000, Remaining: 6552, Reset in: 20.686s
+2023-11-28 21:16:11,579 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:16:11,581 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_6.json
+2023-11-28 21:16:11,584 INFO:Processing images in batch 9
+2023-11-28 21:16:11,585 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_35.jpg
+2023-11-28 21:16:11,587 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_36.jpg
+2023-11-28 21:16:11,589 INFO:Sending request to OpenAI...
+2023-11-28 21:16:11,600 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:16:24,020 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:16:24,025 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:16:23 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '13328', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '451', 'x-ratelimit-remaining-tokens': '5197', 'x-ratelimit-reset-requests': '2h19m5.167s', 'x-ratelimit-reset-tokens': '28.814s', 'x-request-id': 'da28818165e942e120b46f1dc5b63167', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=u3bWgQl9U6ke2G8hywkVs.t4tD0EsEDILDoTyoJ_4_w-1701206183-0-AQU8TgV1ZHiFJlturHmRzu52YNhjiyeYPEjVvtzNaEcDNN8VhtCb5NAYvsVF03THykaE2AENzFzPfytLuIaP+PE=; path=/; expires=Tue, 28-Nov-23 21:46:23 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=_0vscf6E9Ov1vCSLtQMXRqVHbgV7fWGP0SlrOE8bkdk-1701206183997-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a15f4a850375-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:16:24,025 INFO:Rate Limit (Requests): 500, Remaining: 451, Reset in: 2h19m5.167s
+2023-11-28 21:16:24,025 INFO:Rate Limit (Tokens): 10000, Remaining: 5197, Reset in: 28.814s
+2023-11-28 21:16:24,025 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:16:24,026 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_8.json
+2023-11-28 21:16:24,028 INFO:Processing images in batch 10
+2023-11-28 21:16:24,029 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_37.jpg
+2023-11-28 21:16:24,030 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_38.jpg
+2023-11-28 21:16:24,032 INFO:Sending request to OpenAI...
+2023-11-28 21:16:24,039 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:16:24,274 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:16:24,277 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:16:24 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '10858', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '450', 'x-ratelimit-remaining-tokens': '3932', 'x-ratelimit-reset-requests': '2h21m55.855s', 'x-ratelimit-reset-tokens': '36.404s', 'x-request-id': '12b50f8d4fc691aa30d35341acfeae76', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=RSKvWQTuhSiD38oP4hbfCZkFsgpwIQxtPWb8VZXWKjo-1701206184-0-AYCtbOEHQe1A8xlTV87ssqJw4IZr700X846yuLc12tf+kzAfpJn5n+FJOKSoobKEFxhupKnsl4n/1IDzqdqcaq4=; path=/; expires=Tue, 28-Nov-23 21:46:24 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=fNZYmvd4VwGuvxHN9r_MPPUu9F_2gkUlfm2uTJAfx9E-1701206184260-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a16d8e382a64-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:16:24,277 INFO:Rate Limit (Requests): 500, Remaining: 450, Reset in: 2h21m55.855s
+2023-11-28 21:16:24,277 INFO:Rate Limit (Tokens): 10000, Remaining: 3932, Reset in: 36.404s
+2023-11-28 21:16:24,277 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:16:24,279 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_9.json
+2023-11-28 21:16:24,282 INFO:Processing images in batch 11
+2023-11-28 21:16:24,282 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_39.jpg
+2023-11-28 21:16:24,285 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_4.jpg
+2023-11-28 21:16:24,286 INFO:Sending request to OpenAI...
+2023-11-28 21:16:24,293 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:16:34,058 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:16:34,060 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:16:34 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '8788', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '449', 'x-ratelimit-remaining-tokens': '4403', 'x-ratelimit-reset-requests': '2h24m36.131s', 'x-ratelimit-reset-tokens': '33.581s', 'x-request-id': '9df237109cc75a9f5156bf9109ce9f78', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=ixspPnmyqZ8lL9qR3185t9RTejNhsyUnvp.rO3cbcBg-1701206194-0-AV6mMT8AoCloSIfTApT8fFRV9FoglUrTIiyRipVqG8OmBVbyqTNLN8BlI+oMGO5F3XDq5Qm6cHJUq+aLez1go3M=; path=/; expires=Tue, 28-Nov-23 21:46:34 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=X5pcpzRI178TZV5DK5wAZIMn8pSIvvXs2St6o.eZMSo-1701206194074-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a1bb3a34d62a-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:16:34,060 INFO:Rate Limit (Requests): 500, Remaining: 449, Reset in: 2h24m36.131s
+2023-11-28 21:16:34,060 INFO:Rate Limit (Tokens): 10000, Remaining: 4403, Reset in: 33.581s
+2023-11-28 21:16:34,060 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:16:34,061 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_10.json
+2023-11-28 21:16:34,064 INFO:Processing images in batch 12
+2023-11-28 21:16:34,064 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_40.jpg
+2023-11-28 21:16:34,066 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_41.jpg
+2023-11-28 21:16:34,068 INFO:Sending request to OpenAI...
+2023-11-28 21:16:34,073 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:16:37,297 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:16:37,300 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:16:37 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '11067', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '448', 'x-ratelimit-remaining-tokens': '2924', 'x-ratelimit-reset-requests': '2h27m28.099s', 'x-ratelimit-reset-tokens': '42.452s', 'x-request-id': '1fa58bf70e8b00bbe84d16b796f8bedf', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=Hl6DLZCdzaIbPSoXMf9E1.VQALinXdwRoIGJDIHdJ34-1701206197-0-Ac+XoR9glpBrjebjxCMtFkkEIgjVraSETt3c+TKYMz/UIeJIlbHS27/vEQUsAEMqjFNlMhB37+M+mzaATw1dgCA=; path=/; expires=Tue, 28-Nov-23 21:46:37 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=QHsMNPNMNyKWySEzKxyqpFpqwWIyis3dfDWkkhLpD7o-1701206197318-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a1be0f1099f1-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:16:37,300 INFO:Rate Limit (Requests): 500, Remaining: 448, Reset in: 2h27m28.099s
+2023-11-28 21:16:37,300 INFO:Rate Limit (Tokens): 10000, Remaining: 2924, Reset in: 42.452s
+2023-11-28 21:16:37,300 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:16:37,301 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_11.json
+2023-11-28 21:16:37,305 INFO:Processing images in batch 13
+2023-11-28 21:16:37,305 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_42.jpg
+2023-11-28 21:16:37,307 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_43.jpg
+2023-11-28 21:16:37,309 INFO:Sending request to OpenAI...
+2023-11-28 21:16:37,316 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:16:55,757 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:16:55,771 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:16:55 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '17298', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '446', 'x-ratelimit-remaining-tokens': '1749', 'x-ratelimit-reset-requests': '2h33m1.344s', 'x-ratelimit-reset-tokens': '49.5s', 'x-request-id': 'ceba249eaea101d86047b8ac6da64c42', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=sUPvitNsCwpmaHxBmt81Xm3zS_oLhz1_ipaqVt57w.4-1701206215-0-Aa+KE9657hF/BQjp9WZY/YJb3Z6lpL7SqkklqWDdzjZb/aBg6j4RGvt+mn+YvazhFzKVDkaau5RE8B//F2bYtls=; path=/; expires=Tue, 28-Nov-23 21:46:55 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=F997qXeoz_MQ6Bw1YnVem0Xmt_7OdeMLayFp8FgLIns-1701206215791-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a20e3fcfd5e5-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:16:55,772 INFO:Rate Limit (Requests): 500, Remaining: 446, Reset in: 2h33m1.344s
+2023-11-28 21:16:55,772 INFO:Rate Limit (Tokens): 10000, Remaining: 1749, Reset in: 49.5s
+2023-11-28 21:16:55,772 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:16:55,773 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_13.json
+2023-11-28 21:16:55,775 INFO:Processing images in batch 14
+2023-11-28 21:16:55,776 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_44.jpg
+2023-11-28 21:16:55,778 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_45.jpg
+2023-11-28 21:16:55,779 INFO:Sending request to OpenAI...
+2023-11-28 21:16:55,786 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:16:56,676 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:16:56,678 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:16:56 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '20328', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '447', 'x-ratelimit-remaining-tokens': '2853', 'x-ratelimit-reset-requests': '2h30m11.624s', 'x-ratelimit-reset-tokens': '42.878s', 'x-request-id': 'a4934a2bff330f9ec3248c489b71496c', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=zVutnChI8bl_LHnUdjiD41ArWwJCMbKTixNnCHmdVuo-1701206216-0-AZG2OdUd1SM5w3c7F4JqQuFANTxbsoFpo50Q53SZ9Cfr53VcairIJajCxjCEr1k+uAmu44nEo8S48BKLSm3dxY4=; path=/; expires=Tue, 28-Nov-23 21:46:56 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=DvM5LYqtAvyQ6DaXlpbR33_l5WsImmgglEQtBrxx2BE-1701206216666-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a1f9e8a3d6e6-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:16:56,678 INFO:Rate Limit (Requests): 500, Remaining: 447, Reset in: 2h30m11.624s
+2023-11-28 21:16:56,678 INFO:Rate Limit (Tokens): 10000, Remaining: 2853, Reset in: 42.878s
+2023-11-28 21:16:56,678 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:16:56,680 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_12.json
+2023-11-28 21:16:56,683 INFO:Processing images in batch 15
+2023-11-28 21:16:56,684 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_46.jpg
+2023-11-28 21:16:56,686 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_47.jpg
+2023-11-28 21:16:56,688 INFO:Sending request to OpenAI...
+2023-11-28 21:16:56,696 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:04,826 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:17:04,853 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:17:04 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '7662', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '445', 'x-ratelimit-remaining-tokens': '3249', 'x-ratelimit-reset-requests': '2h35m35.445s', 'x-ratelimit-reset-tokens': '40.503s', 'x-request-id': '2d841efe83975b2732d3b7eead6127b3', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=NSNbTkiYzjkbAgffgTtYGH._CbHHC8_bL4h56N8Z8Mg-1701206224-0-ATzp/BinN070GV9Eig4DViotFcmryiYaNNOhUEp5Q3loMB+vQWGgEU1dbX7dvkEc8m8TXQGRjWV11uyYB+nSGn0=; path=/; expires=Tue, 28-Nov-23 21:47:04 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=pVJ2C349PjEG96.0aOKh8glBacz02hZOsXoxvm0AAXI-1701206224859-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a2819b7b2a2f-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:17:04,854 INFO:Rate Limit (Requests): 500, Remaining: 445, Reset in: 2h35m35.445s
+2023-11-28 21:17:04,854 INFO:Rate Limit (Tokens): 10000, Remaining: 3249, Reset in: 40.503s
+2023-11-28 21:17:04,854 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:17:04,855 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_14.json
+2023-11-28 21:17:04,859 INFO:Processing images in batch 16
+2023-11-28 21:17:04,859 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_48.jpg
+2023-11-28 21:17:04,862 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_49.jpg
+2023-11-28 21:17:04,864 INFO:Sending request to OpenAI...
+2023-11-28 21:17:04,872 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:05,233 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:17:05,234 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:17:05 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '7132', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '444', 'x-ratelimit-remaining-tokens': '1746', 'x-ratelimit-reset-requests': '2h38m27.562s', 'x-ratelimit-reset-tokens': '49.522s', 'x-request-id': '2a8c2140196504aeb91428b4d7b3a73c', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=aJv.eU57AAL0uAy08gfxKSPih_C75P7Y.PcVyfq0A4k-1701206225-0-ARnqmBFTX7Y6xryTVHlMhPiMxd1EuV7dHPRL+xxbVWKg1F3e31/7HnmV+IHwkmFxWaLYeYyUmcIMvzTfq8v2TJo=; path=/; expires=Tue, 28-Nov-23 21:47:05 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=6u6lA0usFjfHKEmEeKjgao7lXKDklAsT26PD91aZy6o-1701206225225-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a2876ebbf0a7-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:17:05,234 INFO:Rate Limit (Requests): 500, Remaining: 444, Reset in: 2h38m27.562s
+2023-11-28 21:17:05,234 INFO:Rate Limit (Tokens): 10000, Remaining: 1746, Reset in: 49.522s
+2023-11-28 21:17:05,234 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:17:05,235 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_15.json
+2023-11-28 21:17:05,237 INFO:Processing images in batch 17
+2023-11-28 21:17:05,238 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_5.jpg
+2023-11-28 21:17:05,239 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_50.jpg
+2023-11-28 21:17:05,241 INFO:Sending request to OpenAI...
+2023-11-28 21:17:05,248 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:15,821 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:17:15,824 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:17:15 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '8426', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '443', 'x-ratelimit-remaining-tokens': '30', 'x-ratelimit-reset-requests': '2h44m4.051s', 'x-ratelimit-reset-tokens': '59.815s', 'x-request-id': '0b73d4a557f2427de05b7d8a328a2c39', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=5wiWy_Qc7UZs8sof_OKt19.eS.wBRXFHRNzMh4XG9AY-1701206235-0-AUYNorre0G0V+ogPtW2Pv9MGgCGDidjYhS6yhVETJcygSLH1ZU68yy6M56OK6wrwNwV6149sb6KaMbTSo4sIl3I=; path=/; expires=Tue, 28-Nov-23 21:47:15 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=G3vwymjfM3VAFYFUdulQmKyXR1yALvsOTUPr0Gj8Wc8-1701206235770-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a2bd8f22d3b7-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:17:15,824 INFO:Rate Limit (Requests): 500, Remaining: 443, Reset in: 2h44m4.051s
+2023-11-28 21:17:15,824 INFO:Rate Limit (Tokens): 10000, Remaining: 30, Reset in: 59.815s
+2023-11-28 21:17:15,824 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:17:15,825 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_17.json
+2023-11-28 21:17:15,828 INFO:Processing images in batch 18
+2023-11-28 21:17:15,828 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_51.jpg
+2023-11-28 21:17:15,831 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_52.jpg
+2023-11-28 21:17:15,833 INFO:Sending request to OpenAI...
+2023-11-28 21:17:15,840 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:16,050 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:17:16,052 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:17:16 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '9116', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '444', 'x-ratelimit-remaining-tokens': '1578', 'x-ratelimit-reset-requests': '2h41m11.666s', 'x-ratelimit-reset-tokens': '50.528s', 'x-request-id': '5e285f431dc0a6fc6b3507aa3345760c', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=TQi7mLcdWn6ItCFrNbmFXAvvWQv3EK6UE5NiBW1tgD4-1701206236-0-AWXlgrUEvH8+qZznqGmpih372GJ+lO1vbj9jakrPPjZO15SI0rNTCSCXM0z7CgKRTRy6xUbLA5R+WVXn2YbkPos=; path=/; expires=Tue, 28-Nov-23 21:47:16 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=EUJLa68363AgEmC6UwydxmRvjdMKacT0t5oslXNk5Eg-1701206236034-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a2ba6bf602b1-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:17:16,052 INFO:Rate Limit (Requests): 500, Remaining: 444, Reset in: 2h41m11.666s
+2023-11-28 21:17:16,052 INFO:Rate Limit (Tokens): 10000, Remaining: 1578, Reset in: 50.528s
+2023-11-28 21:17:16,052 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:17:16,054 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_16.json
+2023-11-28 21:17:16,057 INFO:Processing images in batch 19
+2023-11-28 21:17:16,058 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_53.jpg
+2023-11-28 21:17:16,059 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_54.jpg
+2023-11-28 21:17:16,061 INFO:Sending request to OpenAI...
+2023-11-28 21:17:16,068 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:17,560 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 384
+2023-11-28 21:17:17,561 WARNING:Rate limited. Requests remaining: 441, Reset in: 2h49m39.066s
+2023-11-28 21:17:17,562 WARNING:Rate limited. Tokens remaining: 177, Reset in: 58.932s
+2023-11-28 21:17:18,573 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:19,827 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 385
+2023-11-28 21:17:19,833 WARNING:Rate limited. Requests remaining: 440, Reset in: 2h52m29.604s
+2023-11-28 21:17:19,833 WARNING:Rate limited. Tokens remaining: 554, Reset in: 56.67s
+2023-11-28 21:17:21,845 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:23,052 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 385
+2023-11-28 21:17:23,071 WARNING:Rate limited. Requests remaining: 439, Reset in: 2h55m19.154s
+2023-11-28 21:17:23,071 WARNING:Rate limited. Tokens remaining: 1096, Reset in: 53.421s
+2023-11-28 21:17:27,086 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:28,523 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:17:28,527 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:17:28 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '11407', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '442', 'x-ratelimit-remaining-tokens': '100', 'x-ratelimit-reset-requests': '2h46m46.731s', 'x-ratelimit-reset-tokens': '59.398s', 'x-request-id': 'f38b86d27d44efe850103a33e3c7193e', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=Rp1LayXC94Aiht7kD2hz9wkcnG.MK7nuAm3W3lL2rIA-1701206248-0-AWQW5BPSb9K9EZkFbYtgqiNt3xlENm9FgvZW54T3+xAkKxjgyymti3ZnMPEmfrNBsBi1DzEZkNHfKi757txU5bc=; path=/; expires=Tue, 28-Nov-23 21:47:28 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=4iWHnIOml54MGmqJW2tq3_STJ2RNxDMaZ.3EIzy2U_Y-1701206248512-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a2fefeecd353-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:17:28,527 INFO:Rate Limit (Requests): 500, Remaining: 442, Reset in: 2h46m46.731s
+2023-11-28 21:17:28,527 INFO:Rate Limit (Tokens): 10000, Remaining: 100, Reset in: 59.398s
+2023-11-28 21:17:28,527 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:17:28,528 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_18.json
+2023-11-28 21:17:28,531 INFO:Processing images in batch 20
+2023-11-28 21:17:28,532 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_55.jpg
+2023-11-28 21:17:28,533 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_56.jpg
+2023-11-28 21:17:28,535 INFO:Sending request to OpenAI...
+2023-11-28 21:17:28,542 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:29,948 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 384
+2023-11-28 21:17:29,950 WARNING:Rate limited. Requests remaining: 437, Reset in: 3h0m57.865s
+2023-11-28 21:17:29,950 WARNING:Rate limited. Tokens remaining: 627, Reset in: 56.234s
+2023-11-28 21:17:30,962 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:32,612 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 385
+2023-11-28 21:17:32,615 WARNING:Rate limited. Requests remaining: 436, Reset in: 3h3m48.06s
+2023-11-28 21:17:32,615 WARNING:Rate limited. Tokens remaining: 1061, Reset in: 53.629s
+2023-11-28 21:17:34,629 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:35,568 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:17:35,573 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:17:35 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '7232', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '438', 'x-ratelimit-remaining-tokens': '358', 'x-ratelimit-reset-requests': '2h58m6.678s', 'x-ratelimit-reset-tokens': '57.847s', 'x-request-id': '2545686843f8f6653ba074ce433c3e5a', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=XvJMBoYgPbFafzxG8suaCjWfWF9TXzmnmh7gXDqtB.k-1701206255-0-AZlxQJitO+D428q4/rM1O5v0cGcs8kdqQlC8p/90bg6N+mSnQTH37NcrbkjORq1dDpx7qyujTdRHyL1etNxmI5k=; path=/; expires=Tue, 28-Nov-23 21:47:35 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=JhlrZNtCihCfNqTGW6mGAQE__2bNXGj_9gUcA1Y5g8o-1701206255573-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a3453f100226-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:17:35,573 INFO:Rate Limit (Requests): 500, Remaining: 438, Reset in: 2h58m6.678s
+2023-11-28 21:17:35,573 INFO:Rate Limit (Tokens): 10000, Remaining: 358, Reset in: 57.847s
+2023-11-28 21:17:35,573 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:17:35,574 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_19.json
+2023-11-28 21:17:35,577 INFO:Processing images in batch 21
+2023-11-28 21:17:35,577 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_57.jpg
+2023-11-28 21:17:35,579 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_58.jpg
+2023-11-28 21:17:35,581 INFO:Sending request to OpenAI...
+2023-11-28 21:17:35,587 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:37,016 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 385
+2023-11-28 21:17:37,018 WARNING:Rate limited. Requests remaining: 434, Reset in: 3h9m29.401s
+2023-11-28 21:17:37,018 WARNING:Rate limited. Tokens remaining: 154, Reset in: 59.071s
+2023-11-28 21:17:38,033 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:39,165 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 385
+2023-11-28 21:17:39,172 WARNING:Rate limited. Requests remaining: 433, Reset in: 3h12m19.887s
+2023-11-28 21:17:39,172 WARNING:Rate limited. Tokens remaining: 540, Reset in: 56.758s
+2023-11-28 21:17:41,188 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:42,344 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 385
+2023-11-28 21:17:42,366 WARNING:Rate limited. Requests remaining: 432, Reset in: 3h15m9.474s
+2023-11-28 21:17:42,366 WARNING:Rate limited. Tokens remaining: 1075, Reset in: 53.545s
+2023-11-28 21:17:43,570 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:17:43,576 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:17:43 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '6953', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '435', 'x-ratelimit-remaining-tokens': '92', 'x-ratelimit-reset-requests': '3h6m36.972s', 'x-ratelimit-reset-tokens': '59.442s', 'x-request-id': '5cf0d96d8ffad5bd1cc66fb1e83166b8', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=3nSeLUu4p7FfuuSoYUH2OEpVxPXt6ndi2__j.P6.9ps-1701206263-0-AcUct+2W3DWq8lokXpUwMqumtZa9wDpS9Y5teB9tglaJ5mbIRQW4MrbQbSueas4uIn4qz/lWdDwj3iqjMM41q8s=; path=/; expires=Tue, 28-Nov-23 21:47:43 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=P7CPfS1yIZtZeNecA4seNuD4DDfQFOmmXYCbEM2dF.s-1701206263412-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a375386b6edf-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:17:43,576 INFO:Rate Limit (Requests): 500, Remaining: 435, Reset in: 3h6m36.972s
+2023-11-28 21:17:43,577 INFO:Rate Limit (Tokens): 10000, Remaining: 92, Reset in: 59.442s
+2023-11-28 21:17:43,577 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:17:43,578 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_20.json
+2023-11-28 21:17:43,583 INFO:Processing images in batch 22
+2023-11-28 21:17:43,584 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_59.jpg
+2023-11-28 21:17:43,588 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_6.jpg
+2023-11-28 21:17:43,590 INFO:Sending request to OpenAI...
+2023-11-28 21:17:43,597 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:44,767 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 384
+2023-11-28 21:17:44,782 WARNING:Rate limited. Requests remaining: 431, Reset in: 3h17m59.826s
+2023-11-28 21:17:44,782 WARNING:Rate limited. Tokens remaining: 1483, Reset in: 51.097s
+2023-11-28 21:17:45,799 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:46,382 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:47,973 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 385
+2023-11-28 21:17:47,978 WARNING:Rate limited. Requests remaining: 429, Reset in: 3h23m42.297s
+2023-11-28 21:17:47,978 WARNING:Rate limited. Tokens remaining: 388, Reset in: 57.67s
+2023-11-28 21:17:53,408 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:17:53,413 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:17:53 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '6330', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '430', 'x-ratelimit-remaining-tokens': '242', 'x-ratelimit-reset-requests': '3h20m50.372s', 'x-ratelimit-reset-tokens': '58.545s', 'x-request-id': 'a037f69fe43f8658e3de76c5b8b2bf42', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=6YoW53__1qMmvTf0nerYIJt6ilYCLBJIYRWd3e8j0sc-1701206273-0-AVfJjbpFBnTyjyfJUJN0JNjG0SeLLBdhwuEbHQpmDmrluQsH4A2cx6sEYBv/bUnwXqUYEiku5wI7GtVnitwYPf4=; path=/; expires=Tue, 28-Nov-23 21:47:53 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=BEv5Z59kWFljs6zUkDloqso6JgR5RJfYRpm1iRUtTQQ-1701206273395-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a3ba5bb62294-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:17:53,413 INFO:Rate Limit (Requests): 500, Remaining: 430, Reset in: 3h20m50.372s
+2023-11-28 21:17:53,413 INFO:Rate Limit (Tokens): 10000, Remaining: 242, Reset in: 58.545s
+2023-11-28 21:17:53,413 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:17:53,414 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_22.json
+2023-11-28 21:17:53,417 INFO:Processing images in batch 23
+2023-11-28 21:17:53,417 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_60.jpg
+2023-11-28 21:17:53,419 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_61.jpg
+2023-11-28 21:17:53,421 INFO:Sending request to OpenAI...
+2023-11-28 21:17:53,428 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:55,140 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 384
+2023-11-28 21:17:55,141 WARNING:Rate limited. Requests remaining: 428, Reset in: 3h26m27.916s
+2023-11-28 21:17:55,141 WARNING:Rate limited. Tokens remaining: 1585, Reset in: 50.488s
+2023-11-28 21:17:55,991 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:56,155 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:17:57,622 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 385
+2023-11-28 21:17:57,628 WARNING:Rate limited. Requests remaining: 426, Reset in: 3h32m10.984s
+2023-11-28 21:17:57,628 WARNING:Rate limited. Tokens remaining: 390, Reset in: 57.659s
+2023-11-28 21:17:59,636 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:18:00,978 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 384
+2023-11-28 21:18:00,984 WARNING:Rate limited. Requests remaining: 425, Reset in: 3h35m0.53s
+2023-11-28 21:18:00,984 WARNING:Rate limited. Tokens remaining: 932, Reset in: 54.404s
+2023-11-28 21:18:05,001 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:18:06,026 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:18:06,043 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:18:06 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '8196', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '427', 'x-ratelimit-remaining-tokens': '317', 'x-ratelimit-reset-requests': '3h29m18.621s', 'x-ratelimit-reset-tokens': '58.096s', 'x-request-id': '30223b29fcee792726a5977292db044c', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=xYJooeqZw_fdkyhtj2H6UGz7YdA7VreEC9HMcV_MfzY-1701206286-0-AdsNyODlVqx2EAP5S9gu44iNwNbmFVE3WQ6JB+22xtTpQLKb4Umn8/gYWUR+x0u4Cy5PRyVtlriagsH1hG20xdQ=; path=/; expires=Tue, 28-Nov-23 21:48:06 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=2Jxn_.qAp0.LGwYZY4KVaf5kdGfF57KYTV5zKm4sd2w-1701206286060-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a3fa48ce6f3a-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:18:06,044 INFO:Rate Limit (Requests): 500, Remaining: 427, Reset in: 3h29m18.621s
+2023-11-28 21:18:06,044 INFO:Rate Limit (Tokens): 10000, Remaining: 317, Reset in: 58.096s
+2023-11-28 21:18:06,044 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:18:06,045 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_21.json
+2023-11-28 21:18:06,048 INFO:Processing images in batch 24
+2023-11-28 21:18:06,049 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_62.jpg
+2023-11-28 21:18:06,051 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_63.jpg
+2023-11-28 21:18:06,053 INFO:Sending request to OpenAI...
+2023-11-28 21:18:06,060 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:18:07,257 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 384
+2023-11-28 21:18:07,257 WARNING:Rate limited. Requests remaining: 423, Reset in: 3h40m39.759s
+2023-11-28 21:18:07,257 WARNING:Rate limited. Tokens remaining: 377, Reset in: 57.736s
+2023-11-28 21:18:08,268 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:18:09,578 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 385
+2023-11-28 21:18:09,581 WARNING:Rate limited. Requests remaining: 422, Reset in: 3h43m30.32s
+2023-11-28 21:18:09,581 WARNING:Rate limited. Tokens remaining: 750, Reset in: 55.496s
+2023-11-28 21:18:11,595 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:18:12,902 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 384
+2023-11-28 21:18:12,905 WARNING:Rate limited. Requests remaining: 421, Reset in: 3h46m19.687s
+2023-11-28 21:18:12,905 WARNING:Rate limited. Tokens remaining: 1322, Reset in: 52.063s
+2023-11-28 21:18:16,252 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:18:16,315 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:18:16 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '9971', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '424', 'x-ratelimit-remaining-tokens': '213', 'x-ratelimit-reset-requests': '3h37m47.941s', 'x-ratelimit-reset-tokens': '58.717s', 'x-request-id': '446e4d4a56824dee00fce72500ad99ef', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=mEylthDDeeOrDLclB4JOqs6P7.R1M43pibMdNdZTMqY-1701206296-0-ATV32W0cLh5c+1IzWu3C+5AW5TiXDI0YIQ9zBXmnTFCbH1r5IdhbjXjYOwG/D32+cI3AieYNXAziFQfPVSp11Jo=; path=/; expires=Tue, 28-Nov-23 21:48:16 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=e4PJX1Wskm2AKsgKhGDHc1xzzw_icFFZL2_5SFGdLeg-1701206296268-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a4328eae700e-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:18:16,315 INFO:Rate Limit (Requests): 500, Remaining: 424, Reset in: 3h37m47.941s
+2023-11-28 21:18:16,316 INFO:Rate Limit (Tokens): 10000, Remaining: 213, Reset in: 58.717s
+2023-11-28 21:18:16,316 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:18:16,317 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_23.json
+2023-11-28 21:18:16,319 INFO:Processing images in batch 25
+2023-11-28 21:18:16,320 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_64.jpg
+2023-11-28 21:18:16,322 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_65.jpg
+2023-11-28 21:18:16,324 INFO:Sending request to OpenAI...
+2023-11-28 21:18:16,330 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:18:16,918 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:18:18,062 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 384
+2023-11-28 21:18:18,067 WARNING:Rate limited. Requests remaining: 419, Reset in: 3h52m0.145s
+2023-11-28 21:18:18,067 WARNING:Rate limited. Tokens remaining: 562, Reset in: 56.623s
+2023-11-28 21:18:26,085 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:18:27,844 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:18:27,858 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:18:27 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '10329', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '420', 'x-ratelimit-remaining-tokens': '472', 'x-ratelimit-reset-requests': '3h49m7.885s', 'x-ratelimit-reset-tokens': '57.163s', 'x-request-id': '52bf18827847fc31f064fef6aca9f21c', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=Gj_t5iJHq9bvZ0M5TUf5fkFiipnwG8TTihh8LqdSJ6Q-1701206307-0-AUAtCWTk1oeIb7fXGM8lFmq7JMZQQDnbkOqN6OOgc/VefjeAFmQM5qY5iK8PciKK6O8RN8Kt7+fviz5hai59fLw=; path=/; expires=Tue, 28-Nov-23 21:48:27 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=PInNCafj_FZhxROmmrwS_MDuNtd_D52dWmTl5uTEBPs-1701206307878-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a4793a853cd1-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:18:27,858 INFO:Rate Limit (Requests): 500, Remaining: 420, Reset in: 3h49m7.885s
+2023-11-28 21:18:27,858 INFO:Rate Limit (Tokens): 10000, Remaining: 472, Reset in: 57.163s
+2023-11-28 21:18:27,858 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:18:27,860 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_25.json
+2023-11-28 21:18:27,864 INFO:Processing images in batch 26
+2023-11-28 21:18:27,865 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_66.jpg
+2023-11-28 21:18:27,867 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_67.jpg
+2023-11-28 21:18:27,869 INFO:Sending request to OpenAI...
+2023-11-28 21:18:27,876 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:18:29,147 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 385
+2023-11-28 21:18:29,171 WARNING:Rate limited. Requests remaining: 417, Reset in: 3h57m34.659s
+2023-11-28 21:18:29,171 WARNING:Rate limited. Tokens remaining: 793, Reset in: 55.239s
+2023-11-28 21:18:30,186 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:18:31,796 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 385
+2023-11-28 21:18:31,802 WARNING:Rate limited. Requests remaining: 416, Reset in: 4h0m24.83s
+2023-11-28 21:18:31,803 WARNING:Rate limited. Tokens remaining: 1231, Reset in: 52.611s
+2023-11-28 21:18:33,816 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:18:38,753 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:18:38,775 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:18:38 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '11427', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '418', 'x-ratelimit-remaining-tokens': '487', 'x-ratelimit-reset-requests': '3h54m43.694s', 'x-ratelimit-reset-tokens': '57.075s', 'x-request-id': '8097bb2b16f1f1a23a5bc46514cb9a75', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=myrDTVquLZibIuH3j5Yl5p8I3DQ0ERMJLzm.nT8B2uQ-1701206318-0-ARTELoEE7M1lUn/ZyviK/qRfpkW+d2QwyWxINGtbzm9XNjkvO4JAh8KiKBjmQEtwKf2CK8Z+8//C03kERdpceno=; path=/; expires=Tue, 28-Nov-23 21:48:38 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=3A9yptOcFjjavHQHFdZFH.eoLBAO9Nnd.hZXGcGE2Yk-1701206318786-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a4b61eee04a0-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:18:38,775 INFO:Rate Limit (Requests): 500, Remaining: 418, Reset in: 3h54m43.694s
+2023-11-28 21:18:38,775 INFO:Rate Limit (Tokens): 10000, Remaining: 487, Reset in: 57.075s
+2023-11-28 21:18:38,775 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:18:38,775 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_24.json
+2023-11-28 21:18:38,777 INFO:Processing images in batch 27
+2023-11-28 21:18:38,778 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_7.jpg
+2023-11-28 21:18:38,779 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_8.jpg
+2023-11-28 21:18:38,781 INFO:Sending request to OpenAI...
+2023-11-28 21:18:38,786 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:18:39,991 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 384
+2023-11-28 21:18:40,012 WARNING:Rate limited. Requests remaining: 414, Reset in: 4h6m2.22s
+2023-11-28 21:18:40,012 WARNING:Rate limited. Tokens remaining: 982, Reset in: 54.103s
+2023-11-28 21:18:41,027 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:18:42,205 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 385
+2023-11-28 21:18:42,210 WARNING:Rate limited. Requests remaining: 413, Reset in: 4h8m52.797s
+2023-11-28 21:18:42,210 WARNING:Rate limited. Tokens remaining: 1353, Reset in: 51.88s
+2023-11-28 21:18:43,269 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:18:43,276 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:18:43 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '8062', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '415', 'x-ratelimit-remaining-tokens': '171', 'x-ratelimit-reset-requests': '4h3m14.29s', 'x-ratelimit-reset-tokens': '58.972s', 'x-request-id': '7271de9e189970a9c935610bf89b6cd9', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=_PQMG.RUZA6Vjw.jhy15XCIo5msvgRxfrPJABK4rulk-1701206323-0-AYHpV5HKO85ExGTiPwKbMTfaVgQVnb/Ia/5MN9a4SomPsGjlcbaPwFD0l88IBaTVRv2N6DGL++ytUOPhp4tu7+0=; path=/; expires=Tue, 28-Nov-23 21:48:43 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=IcxYX6_OlnHJpnL0fyi97LCQn5D0upVIKUO7E5cu2D4-1701206323223-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a4e65b780473-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:18:43,276 INFO:Rate Limit (Requests): 500, Remaining: 415, Reset in: 4h3m14.29s
+2023-11-28 21:18:43,276 INFO:Rate Limit (Tokens): 10000, Remaining: 171, Reset in: 58.972s
+2023-11-28 21:18:43,276 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:18:43,277 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_26.json
+2023-11-28 21:18:43,280 INFO:Processing images in batch 28
+2023-11-28 21:18:43,281 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_9.jpg
+2023-11-28 21:18:43,283 INFO:Sending request to OpenAI...
+2023-11-28 21:18:43,288 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:18:44,219 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:18:45,426 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 385
+2023-11-28 21:18:45,441 WARNING:Rate limited. Requests remaining: 411, Reset in: 4h14m35.169s
+2023-11-28 21:18:45,441 WARNING:Rate limited. Tokens remaining: 274, Reset in: 58.354s
+2023-11-28 21:18:49,114 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:18:49,115 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:18:49 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '4350', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '412', 'x-ratelimit-remaining-tokens': '130', 'x-ratelimit-reset-requests': '4h11m43.23s', 'x-ratelimit-reset-tokens': '59.214s', 'x-request-id': '93ba9f95ba0349d2bd8d94dace74fa87', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=j14VTZs1eUCnVKXjDbE3e12X3DaAdNV19sQPZ4Ed5WY-1701206329-0-ATRzDOHK3o7bVYOayRJ9YKuNSdhjcrcyU1JGyqd8H+f6GgM5a2wa3PIso78fLwokJdVszwkMZOdk+pFN/+OJTdU=; path=/; expires=Tue, 28-Nov-23 21:48:49 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=HAX1soQNHCFNPEqvUvNeKZY_ji47CJdBAp_34zvu95E-1701206329075-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a5219a38d6be-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:18:49,115 INFO:Rate Limit (Requests): 500, Remaining: 412, Reset in: 4h11m43.23s
+2023-11-28 21:18:49,115 INFO:Rate Limit (Tokens): 10000, Remaining: 130, Reset in: 59.214s
+2023-11-28 21:18:49,115 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:18:49,116 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_28.json
+2023-11-28 21:18:49,453 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:18:51,065 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 429 385
+2023-11-28 21:18:51,070 WARNING:Rate limited. Requests remaining: 410, Reset in: 4h17m22.357s
+2023-11-28 21:18:51,070 WARNING:Rate limited. Tokens remaining: 1209, Reset in: 52.741s
+2023-11-28 21:18:59,083 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:19:07,948 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:19:07,954 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:19:07 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '7553', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '409', 'x-ratelimit-remaining-tokens': '1137', 'x-ratelimit-reset-requests': '4h20m5.89s', 'x-ratelimit-reset-tokens': '53.177s', 'x-request-id': '9f889e4a8aac5fadcd0c569500040905', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=OJJ9MCU52lGh1pjaZEZm5lIxiz.h5wsJ9jCzfayQwSA-1701206347-0-AfkU70w3UPBVtfta9p5V56gGvZmggRd5PHSRTkrYHrPaV/h690sxAejQhju5YWR8Q55pXDMWdwdZKRvg1pYEo8o=; path=/; expires=Tue, 28-Nov-23 21:49:07 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=hbdxkOrTXgOyzasyMUln1dj8q65iGyCvK7vJFs7PIyA-1701206347905-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a5845a3b6f14-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:19:07,954 INFO:Rate Limit (Requests): 500, Remaining: 409, Reset in: 4h20m5.89s
+2023-11-28 21:19:07,954 INFO:Rate Limit (Tokens): 10000, Remaining: 1137, Reset in: 53.177s
+2023-11-28 21:19:07,954 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:19:07,955 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_27.json
+2023-11-28 21:19:07,959 INFO:Script finished
+2023-11-28 21:22:01,828 INFO:Script started
+2023-11-28 21:22:01,828 INFO:Starting the image processing script...
+2023-11-28 21:22:01,828 INFO:Searching for image files in /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs...
+2023-11-28 21:22:01,844 INFO:Processing batch 1...
+2023-11-28 21:22:01,845 INFO:Processing images in batch 1
+2023-11-28 21:22:01,845 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_1.jpg
+2023-11-28 21:22:01,846 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_10.jpg
+2023-11-28 21:22:01,847 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_11.jpg
+2023-11-28 21:22:01,848 INFO:Sending request to OpenAI...
+2023-11-28 21:22:01,860 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:22:13,090 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:22:13,091 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:22:13 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '9728', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '409', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '4h19m55.637s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': 'd49945807ea63212a654ff6c2631d96c', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=q64jULb6rYLYwGR1eI5B7LrWq99bUXqjIv0ooUC5AX0-1701206533-0-AacN0HvQ3CQvo8METlymqD8ZEXsQF7ExsWK0N9kjUXNDLhhyU2T85ouv8daMO01FOrOu1IaN1geWb6QxQH975yI=; path=/; expires=Tue, 28-Nov-23 21:52:13 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=UZuzBsnPBBByi3YiiW3ufWrM4F3Uh8hI5PZa7XN1LFs-1701206533118-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5a9faeafe2149-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:22:13,091 INFO:Rate Limit (Requests): 500, Remaining: 409, Reset in: 4h19m55.637s
+2023-11-28 21:22:13,091 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:22:13,092 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:22:13,093 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_1.json
+2023-11-28 21:22:13,094 INFO:Processing batch 2...
+2023-11-28 21:22:13,094 INFO:Processing images in batch 2
+2023-11-28 21:22:13,094 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_12.jpg
+2023-11-28 21:22:13,095 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_13.jpg
+2023-11-28 21:22:13,096 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_14.jpg
+2023-11-28 21:22:13,097 INFO:Sending request to OpenAI...
+2023-11-28 21:22:13,102 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:22:30,560 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:22:30,574 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:22:30 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '14110', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '408', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '4h22m36.763s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': '4ce442e5c92aab4e76d85df5774c7da0', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=0MNDL1sKeLdw5T0n.M07yM6MLQ9DfnlodfeB1_ZkLy4-1701206550-0-AQoneB8ZZKs1fYFpw9Ujhu5xFgBW3oPdr7/RxBvEAGsnE+HIfwVYkR7+0qE5oiU2Ka5524nNHhtiIpSnysBn8eU=; path=/; expires=Tue, 28-Nov-23 21:52:30 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=4VK6JlrKJ3ID7fjckeEYuHrzyhF4fbubpYAB2T3uNJ4-1701206550602-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5aa40edd9701f-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:22:30,574 INFO:Rate Limit (Requests): 500, Remaining: 408, Reset in: 4h22m36.763s
+2023-11-28 21:22:30,575 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:22:30,575 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:22:30,577 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_2.json
+2023-11-28 21:22:30,581 INFO:Processing batch 3...
+2023-11-28 21:22:30,581 INFO:Processing images in batch 3
+2023-11-28 21:22:30,581 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_15.jpg
+2023-11-28 21:22:30,583 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_16.jpg
+2023-11-28 21:22:30,585 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_17.jpg
+2023-11-28 21:22:30,586 INFO:Sending request to OpenAI...
+2023-11-28 21:22:30,594 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:22:42,329 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:22:42,332 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:22:42 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '10178', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '407', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '4h25m12.536s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': 'd6e8eb1fe42273837a5c362e816bc664', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=MuAvra6LqO1VTOKdkD4eqhqPXfcn.WreUpRyhy6PxmE-1701206562-0-AWig/OXh56sXj0QdnIMqMt7v+lXbovO2zXJfiAJFvKLWYFpTwOV3HCiI5Hwc1xQuIe7/xphcoUF9k3t0s7s3Vq4=; path=/; expires=Tue, 28-Nov-23 21:52:42 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=8.XafdHAizZTOHS1QPlfpWyn7nt1x2jd0wAbRd7dK1w-1701206562336-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5aaae49f7d642-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:22:42,332 INFO:Rate Limit (Requests): 500, Remaining: 407, Reset in: 4h25m12.536s
+2023-11-28 21:22:42,332 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:22:42,332 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:22:42,333 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_3.json
+2023-11-28 21:22:42,338 INFO:Processing batch 4...
+2023-11-28 21:22:42,338 INFO:Processing images in batch 4
+2023-11-28 21:22:42,338 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_18.jpg
+2023-11-28 21:22:42,340 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_19.jpg
+2023-11-28 21:22:42,342 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_2.jpg
+2023-11-28 21:22:42,343 INFO:Sending request to OpenAI...
+2023-11-28 21:22:42,351 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:22:52,486 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:22:52,490 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:22:52 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '9070', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '406', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '4h27m54.009s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': '828787727eee91f2bfe58336db6ffe7b', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=11ZVlzRL6TpPjoQmW7peBrMpK4x583KZJMHM1_yX7pA-1701206572-0-AbeqC/NDjZjGkXGS/FzIWGhykV/z5ztOVek4Tpj/ymSxUo9Mk2ZWz6oOUn2CCaiPgaj6Erhali2oTO3kYG2TR30=; path=/; expires=Tue, 28-Nov-23 21:52:52 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=lSL4NQNQcDtAPlm9E5yMyAZLW6z3JgYQ6n0yWNTHF0w-1701206572506-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5aaf7c9086f4c-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:22:52,490 INFO:Rate Limit (Requests): 500, Remaining: 406, Reset in: 4h27m54.009s
+2023-11-28 21:22:52,490 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:22:52,490 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:22:52,492 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_4.json
+2023-11-28 21:22:52,495 INFO:Processing batch 5...
+2023-11-28 21:22:52,495 INFO:Processing images in batch 5
+2023-11-28 21:22:52,496 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_3.jpg
+2023-11-28 21:22:52,497 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_32.jpg
+2023-11-28 21:22:52,499 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_33.jpg
+2023-11-28 21:22:52,500 INFO:Sending request to OpenAI...
+2023-11-28 21:22:52,508 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:23:04,176 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:23:04,177 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:23:04 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '10220', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '406', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '4h30m36.322s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': 'c25eb98eddcd790c768782eb432919df', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=Mz7yA.HU7L0X9lx2NuOq89v3SsijAfQooFfROU696KQ-1701206584-0-Ado3Oz2v0Z9NA1xTAEnkS6emVqcf6Ohleud580jP8yFK4c739d+Uh32nSbKbRKoQl0vY6TFDHfPrGTM8H2Neyqo=; path=/; expires=Tue, 28-Nov-23 21:53:04 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=4eX4lv9QH.SsWBIKVr6A1yqZyCgRRH57L68wMhY3tYg-1701206584130-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5ab3748386fea-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:23:04,177 INFO:Rate Limit (Requests): 500, Remaining: 406, Reset in: 4h30m36.322s
+2023-11-28 21:23:04,177 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:23:04,177 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:23:04,177 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_5.json
+2023-11-28 21:23:04,179 INFO:Processing batch 6...
+2023-11-28 21:23:04,179 INFO:Processing images in batch 6
+2023-11-28 21:23:04,179 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_34.jpg
+2023-11-28 21:23:04,180 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_35.jpg
+2023-11-28 21:23:04,182 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_36.jpg
+2023-11-28 21:23:04,183 INFO:Sending request to OpenAI...
+2023-11-28 21:23:04,187 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:23:27,585 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:23:27,586 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:23:27 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '21582', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '405', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '4h33m17.07s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': '89fd8e1f557e77330072008cd9a21b43', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=c5reyeKu5eNdMbSMGRKy1._rlQpJRwxPUMbsZYp9_9I-1701206607-0-AU0iECSfA/LrmIkSiTCzWQmW8ACZqCkv5a/0VnwQ09LOMppyE4DwQ5OKqUmus2l7mYJIcgQ1ZmszzW94QLNDbiw=; path=/; expires=Tue, 28-Nov-23 21:53:27 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=xJ1ZoFOWqV7X1Uj8ES2mX0ulZYIZGIFPcNwxM_Is9eA-1701206607622-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5ab803fe90369-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:23:27,586 INFO:Rate Limit (Requests): 500, Remaining: 405, Reset in: 4h33m17.07s
+2023-11-28 21:23:27,586 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:23:27,586 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:23:27,589 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_6.json
+2023-11-28 21:23:27,592 INFO:Processing batch 7...
+2023-11-28 21:23:27,592 INFO:Processing images in batch 7
+2023-11-28 21:23:27,592 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_37.jpg
+2023-11-28 21:23:27,593 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_38.jpg
+2023-11-28 21:23:27,595 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_39.jpg
+2023-11-28 21:23:27,598 INFO:Sending request to OpenAI...
+2023-11-28 21:23:27,605 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:23:39,892 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:23:39,911 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:23:39 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '10732', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '404', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '4h35m46.63s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': '12e662ae889f55515f765feccefc628b', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=SVBbeZvcN_7ULrJMGI1K_s7t7ZDr0iShu1uleKpMPUg-1701206619-0-AW5tCamdPmPWnK2xgHV2rZdxcX83LaX8xVpjt9egJwenb+GQ8omlIWAgtKn9UXiI+LJ4ErsIOh2UfmrUkm0+ciE=; path=/; expires=Tue, 28-Nov-23 21:53:39 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=I2u7a0MzK4UTU81qV8XFTiLHhqejfAAqg7q4BifSy5A-1701206619934-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5ac12e999014f-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:23:39,911 INFO:Rate Limit (Requests): 500, Remaining: 404, Reset in: 4h35m46.63s
+2023-11-28 21:23:39,911 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:23:39,911 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:23:39,913 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_7.json
+2023-11-28 21:23:39,914 INFO:Processing batch 8...
+2023-11-28 21:23:39,915 INFO:Processing images in batch 8
+2023-11-28 21:23:39,915 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_4.jpg
+2023-11-28 21:23:39,916 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_40.jpg
+2023-11-28 21:23:39,917 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_41.jpg
+2023-11-28 21:23:39,918 INFO:Sending request to OpenAI...
+2023-11-28 21:23:39,923 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:23:55,172 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:23:55,174 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:23:55 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '13716', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '403', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '4h38m27.531s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': '11ad8860ef1313847e7b09c29e210556', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=hSPLzAtLeI2rA5MJC80w2ioquLS1IpfMAIy5rGrBwpU-1701206635-0-AY05/g66/bVXOSAdSZU6n3DYuPXCihedvWA3FK1Mlca5rJTPJC/RKfFjdLbO8g1ehWpXZqMzkhGEG0iaCVjcy6g=; path=/; expires=Tue, 28-Nov-23 21:53:55 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=y29WroRR21rDAHjR7USj2V27Ry6JO3UI9aQ91zzNvZw-1701206635087-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5ac5f999201ed-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:23:55,175 INFO:Rate Limit (Requests): 500, Remaining: 403, Reset in: 4h38m27.531s
+2023-11-28 21:23:55,175 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:23:55,175 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:23:55,178 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_8.json
+2023-11-28 21:23:55,182 INFO:Processing batch 9...
+2023-11-28 21:23:55,182 INFO:Processing images in batch 9
+2023-11-28 21:23:55,183 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_42.jpg
+2023-11-28 21:23:55,184 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_43.jpg
+2023-11-28 21:23:55,186 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_44.jpg
+2023-11-28 21:23:55,188 INFO:Sending request to OpenAI...
+2023-11-28 21:23:55,196 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:24:05,513 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:24:05,514 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:24:05 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '8918', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '402', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '4h41m4.87s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': '4fbe5aa7ca8fae6931469bbe0e045ffd', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=2fyWCtrYunSdBHz0c1gsCp0srC9GNKUTcyFwwpozylE-1701206645-0-Ae7WL1K4r1zbPVEmoFkFNvMR3cK3LvlpNXgyXPbv5X74sc/p5fMMrASSOjomuMlNd/IaEEILEzIwjuf3Hw3x7eI=; path=/; expires=Tue, 28-Nov-23 21:54:05 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=DpPrpD8XVHBZtln3zMYOt5BZSISpRQf0q31ovdWQ8Fs-1701206645481-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5acbf0e1f6f36-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:24:05,514 INFO:Rate Limit (Requests): 500, Remaining: 402, Reset in: 4h41m4.87s
+2023-11-28 21:24:05,514 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:24:05,514 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:24:05,516 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_9.json
+2023-11-28 21:24:05,518 INFO:Processing batch 10...
+2023-11-28 21:24:05,518 INFO:Processing images in batch 10
+2023-11-28 21:24:05,518 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_45.jpg
+2023-11-28 21:24:05,520 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_46.jpg
+2023-11-28 21:24:05,521 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_47.jpg
+2023-11-28 21:24:05,522 INFO:Sending request to OpenAI...
+2023-11-28 21:24:05,528 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:24:18,646 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:24:18,653 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:24:18 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '11594', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '401', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '4h43m47.177s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': '634b6a37fcc5a5a445091c1ff52c98b6', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=i_teU1AINXPkfuc6YdEwInXiD1z8tGZNQpx.ck9oZZo-1701206658-0-AUJmPHDij60+0lB6HhgxDp96fdglpK9W7YUTktfI9jDibZrFGP9x8UOb+bn0LdCeWWkQKzK4l1WuwmKxH3aI32I=; path=/; expires=Tue, 28-Nov-23 21:54:18 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=fOFWKlr7nqdevGbSJG.UEFnHVtlaMENdsi3uOY7tP0A-1701206658644-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5acffad18d5b4-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:24:18,653 INFO:Rate Limit (Requests): 500, Remaining: 401, Reset in: 4h43m47.177s
+2023-11-28 21:24:18,653 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:24:18,653 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:24:18,657 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_10.json
+2023-11-28 21:24:18,661 INFO:Processing batch 11...
+2023-11-28 21:24:18,661 INFO:Processing images in batch 11
+2023-11-28 21:24:18,661 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_48.jpg
+2023-11-28 21:24:18,663 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_49.jpg
+2023-11-28 21:24:18,665 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_5.jpg
+2023-11-28 21:24:18,667 INFO:Sending request to OpenAI...
+2023-11-28 21:24:18,675 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:24:33,984 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:24:33,986 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:24:34 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '13361', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '400', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '4h46m26.393s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': '23ca947d9d1e92eff4eea1e59014f4b3', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=Ro4qHnQD3LvhwISRYyJNctNlduUR0rot9FzJMxQBFYg-1701206674-0-ARgUuvCRAIV8RQw1qY/MqXVPj/hQsnN+6BibgnBE2o7A7KZd1+K0AUdZLpQtvBotUbNhyF5rF/7tJGNNmgTeZXQ=; path=/; expires=Tue, 28-Nov-23 21:54:34 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=z9suvSLead1TsRw3cqM.26_bJw9Jx2RJgsY6qEOkEVA-1701206674000-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5ad51defa2a6d-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:24:33,986 INFO:Rate Limit (Requests): 500, Remaining: 400, Reset in: 4h46m26.393s
+2023-11-28 21:24:33,986 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:24:33,987 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:24:33,989 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_11.json
+2023-11-28 21:24:33,992 INFO:Processing batch 12...
+2023-11-28 21:24:33,992 INFO:Processing images in batch 12
+2023-11-28 21:24:33,992 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_50.jpg
+2023-11-28 21:24:33,994 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_51.jpg
+2023-11-28 21:24:33,996 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_52.jpg
+2023-11-28 21:24:33,998 INFO:Sending request to OpenAI...
+2023-11-28 21:24:34,007 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:24:52,717 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:24:52,719 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:24:52 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '16597', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '399', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '4h49m3.927s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': '974a2420a63f6adbffe213fe5126c506', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=kY3uMljLTrnpzaJMSpYNi8jTyoYdN4rRI7PSf6vnSAo-1701206692-0-AQc+5aaxXl69CF55m0gBM94qrbUbWdmWHPwpy6f3oQTBcxrzsEEkthz863riCyTMxhsBVc6mfOr4SC85ayaq2ng=; path=/; expires=Tue, 28-Nov-23 21:54:52 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=eWjMgkoEA4F5L8ZzubwMwE6gPCGpxuOsukwQz6V5xBw-1701206692727-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5adb18cbe034a-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:24:52,720 INFO:Rate Limit (Requests): 500, Remaining: 399, Reset in: 4h49m3.927s
+2023-11-28 21:24:52,720 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:24:52,720 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:24:52,722 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_12.json
+2023-11-28 21:24:52,726 INFO:Processing batch 13...
+2023-11-28 21:24:52,726 INFO:Processing images in batch 13
+2023-11-28 21:24:52,726 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_53.jpg
+2023-11-28 21:24:52,729 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_54.jpg
+2023-11-28 21:24:52,731 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_55.jpg
+2023-11-28 21:24:52,732 INFO:Sending request to OpenAI...
+2023-11-28 21:24:52,741 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:25:11,664 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:25:11,668 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:25:11 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '17683', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '398', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '4h51m38.728s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': '72ebc0acb43dcfd898b819bc1a112c54', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=ichGQZorNdvvnIqriJA55MQ.snT6UK2NwjN06f3PHzA-1701206711-0-Abz9Plg+C0gm6Sq1w6LoYzfkHy4vYa176geXd8nqKbM65OhVTYpgVlKbPJRQU3Yzd6nzfkYyLbIoSQipJY0zfqE=; path=/; expires=Tue, 28-Nov-23 21:55:11 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=mzndz6I4xKSAyHbID0p19Lm9swp7zdracagiP0Z04t4-1701206711603-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5ae26fa24d64a-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:25:11,668 INFO:Rate Limit (Requests): 500, Remaining: 398, Reset in: 4h51m38.728s
+2023-11-28 21:25:11,668 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:25:11,668 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:25:11,670 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_13.json
+2023-11-28 21:25:11,673 INFO:Processing batch 14...
+2023-11-28 21:25:11,673 INFO:Processing images in batch 14
+2023-11-28 21:25:11,674 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_56.jpg
+2023-11-28 21:25:11,676 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_57.jpg
+2023-11-28 21:25:11,677 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_58.jpg
+2023-11-28 21:25:11,679 INFO:Sending request to OpenAI...
+2023-11-28 21:25:11,687 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:25:26,512 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:25:26,514 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:25:26 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '13198', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '397', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '4h54m12.137s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': 'd83185a28d6cb85ded827f59477cc687', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=9L5Y9i1vm.zMA9EoDsZZGTJ9FaqG7wqLVf_LjkENOWU-1701206726-0-Ab5Olaii6jNh3ZmbpKuN7JXwR26BsyOTspampS3Tygs5w391EyhHDlN1m5HPvuDmZe8rXNiX41g2kFr4GTH594M=; path=/; expires=Tue, 28-Nov-23 21:55:26 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=GQ.uN7ud4fqDhXJhWreksMd_WZxWgq2eGvprhXt_VHw-1701206726497-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5ae9d7eea00d2-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:25:26,514 INFO:Rate Limit (Requests): 500, Remaining: 397, Reset in: 4h54m12.137s
+2023-11-28 21:25:26,515 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:25:26,515 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:25:26,518 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_14.json
+2023-11-28 21:25:26,521 INFO:Processing batch 15...
+2023-11-28 21:25:26,521 INFO:Processing images in batch 15
+2023-11-28 21:25:26,521 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_59.jpg
+2023-11-28 21:25:26,523 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_6.jpg
+2023-11-28 21:25:26,525 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_60.jpg
+2023-11-28 21:25:26,527 INFO:Sending request to OpenAI...
+2023-11-28 21:25:26,535 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:25:42,792 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:25:42,795 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:25:42 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '14563', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '396', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '4h56m50.08s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': '893c03329c6ee7abe4972e72544c5373', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=5DPdF15K8ARet.CByxoNTzRQG9avRQVmj.qFHQgE0m4-1701206742-0-AXifwo1YsE5tGm6Bln9NPnMcP9cfjB1i0zP75zJwecJWZXv6/lGSje+lKPeZjlhLnLxvTS7iwFKEUcX4EReAKkQ=; path=/; expires=Tue, 28-Nov-23 21:55:42 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=pPHO0w.3rcPX9tmLWxxEl5LfnvSJaE6m4JlA_wiRIp0-1701206742723-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5aef9fe51d540-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:25:42,795 INFO:Rate Limit (Requests): 500, Remaining: 396, Reset in: 4h56m50.08s
+2023-11-28 21:25:42,795 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:25:42,795 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:25:42,796 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_15.json
+2023-11-28 21:25:42,800 INFO:Processing batch 16...
+2023-11-28 21:25:42,801 INFO:Processing images in batch 16
+2023-11-28 21:25:42,801 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_61.jpg
+2023-11-28 21:25:42,802 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_62.jpg
+2023-11-28 21:25:42,804 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_63.jpg
+2023-11-28 21:25:42,806 INFO:Sending request to OpenAI...
+2023-11-28 21:25:42,813 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:25:53,648 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:25:53,657 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:25:53 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '9333', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '396', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '4h59m26.686s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': '5a5e1ed94890a145149cad6db00ec99e', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=8Fxej1W99X08MyXOELgPtzFqmYFNmXHkfOnMFFob6j0-1701206753-0-AWtzJNuZooXgLDvL0f00GKUzzYzEMe7/yFn+JsNP1pJDjfZvDdn+6bfkHzfrVIxduH+Xuk7yyo7Fpd0Ox6nxjtM=; path=/; expires=Tue, 28-Nov-23 21:55:53 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=79Nzyjvm73PW0RQ..4UKilnOSo2yd0b2pakVAnVyTnY-1701206753662-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5af5fae076ee7-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:25:53,657 INFO:Rate Limit (Requests): 500, Remaining: 396, Reset in: 4h59m26.686s
+2023-11-28 21:25:53,657 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:25:53,657 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:25:53,659 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_16.json
+2023-11-28 21:25:53,664 INFO:Processing batch 17...
+2023-11-28 21:25:53,664 INFO:Processing images in batch 17
+2023-11-28 21:25:53,664 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_64.jpg
+2023-11-28 21:25:53,666 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_65.jpg
+2023-11-28 21:25:53,668 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_66.jpg
+2023-11-28 21:25:53,669 INFO:Sending request to OpenAI...
+2023-11-28 21:25:53,677 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:26:09,215 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:26:09,218 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:26:09 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '13605', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '395', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '5h2m8.266s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': '4607ad1ecab3f320b11c242fb7dda90f', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=piGcSLU9YDoyGZkzu_3JAPhvR0XWXBn6FL8kVGgyeMg-1701206769-0-AduZo7cGmFB1x/KaR4lIWUbTsyxWQne5+hM8GkT9SLRbiNYlJEAmrO1rg7Odgopr0jevyvSiqg1ULoJ5aJGFmhk=; path=/; expires=Tue, 28-Nov-23 21:56:09 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=qS7i84xiDj8pKs4EfVfZHmQjujRsLsdgcV_wWyIxk34-1701206769169-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5afa39c2c0365-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:26:09,218 INFO:Rate Limit (Requests): 500, Remaining: 395, Reset in: 5h2m8.266s
+2023-11-28 21:26:09,218 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:26:09,218 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:26:09,220 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_17.json
+2023-11-28 21:26:09,225 INFO:Processing batch 18...
+2023-11-28 21:26:09,225 INFO:Processing images in batch 18
+2023-11-28 21:26:09,225 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_67.jpg
+2023-11-28 21:26:09,228 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_7.jpg
+2023-11-28 21:26:09,230 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_8.jpg
+2023-11-28 21:26:09,231 INFO:Sending request to OpenAI...
+2023-11-28 21:26:09,240 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:26:20,081 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:26:20,083 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:26:20 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '9328', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '394', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '5h4m45.882s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': 'b2ca51a98d50cc01b1cb23c24aeec964', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=IorT8wfkL6ss.uFCTFiDEdCtU4_OeEppqdKT.Bc9G8I-1701206780-0-AcMqlp7PyYQFxjNZWmgRt7kg7g8NcXYIKim6/saW6P2gguRj1ITLIXqxHi3DXWLq3hmu1B/kcCxZmn9NuDAQOUs=; path=/; expires=Tue, 28-Nov-23 21:56:20 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=8lUpVFl_a6qq0VTJnqqoy01mt9p7w7JhH.Lt7QQITtU-1701206780085-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5b004dc9a6ecf-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:26:20,083 INFO:Rate Limit (Requests): 500, Remaining: 394, Reset in: 5h4m45.882s
+2023-11-28 21:26:20,083 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:26:20,084 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:26:20,086 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_18.json
+2023-11-28 21:26:20,090 INFO:Processing batch 19...
+2023-11-28 21:26:20,090 INFO:Processing images in batch 19
+2023-11-28 21:26:20,090 INFO:Encoding image: /Users/danieltierney/Desktop/HistoricGraves/OLCWS_Mitchelstown/mitch_jpgs/page_9.jpg
+2023-11-28 21:26:20,092 INFO:Sending request to OpenAI...
+2023-11-28 21:26:20,097 DEBUG:Starting new HTTPS connection (1): api.openai.com:443
+2023-11-28 21:26:28,183 DEBUG:https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2023-11-28 21:26:28,186 INFO:Rate Limit Info: {'Date': 'Tue, 28 Nov 2023 21:26:28 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'openai-model': 'gpt-4-1106-vision-preview', 'openai-organization': 'user-r2zgtfdidghpcrkoklvnkdl2', 'openai-processing-ms': '7185', 'openai-version': '2020-10-01', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-limit-tokens': '10000', 'x-ratelimit-remaining-requests': '393', 'x-ratelimit-remaining-tokens': '8383', 'x-ratelimit-reset-requests': '5h7m28.405s', 'x-ratelimit-reset-tokens': '9.702s', 'x-request-id': 'd97dc5acf35403712fbcd3ffe939fb3d', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'CF-Cache-Status': 'DYNAMIC', 'Set-Cookie': '__cf_bm=UabtoN3o0EdkbNwYQf.iA0FUeruX.yy_DlgNv32PwCw-1701206788-0-AQTHOVmnKXFzxMAfkarqkhXy+n8TE7DiebgB2kypwUg1HXjn0Mrlp7lMGxkbkjGG2CLhY4aobzr6apYZPW1Y1S8=; path=/; expires=Tue, 28-Nov-23 21:56:28 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=ZJV4GgxHjZlo_IgLaaf3UxU.b6.zF5gqflIoaWLJguw-1701206788212-0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'Server': 'cloudflare', 'CF-RAY': '82d5b048aee26fde-CDG', 'Content-Encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'}
+2023-11-28 21:26:28,186 INFO:Rate Limit (Requests): 500, Remaining: 393, Reset in: 5h7m28.405s
+2023-11-28 21:26:28,186 INFO:Rate Limit (Tokens): 10000, Remaining: 8383, Reset in: 9.702s
+2023-11-28 21:26:28,186 INFO:Received response from OpenAI, writing to file...
+2023-11-28 21:26:28,189 INFO:Output saved to /Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs/output_batch_19.json
+2023-11-28 21:26:28,192 INFO:Script finished

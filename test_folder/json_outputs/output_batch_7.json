@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8PzqGeka5eliefIyE3giGyqDx6l2a",
+    "object": "chat.completion",
+    "created": 1701206612,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 318,
+        "total_tokens": 3742
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n  {\n    \"memorial_number\": 66,\n    \"name\": \"Alice O'Connell\",\n    \"date\": \"born 1843, died 25 October 1906\",\n    \"location\": \"Manchester, N.H., U.S.A.\"\n  },\n  {\n    \"memorial_number\": 66,\n    \"name\": \"James Sullivan of Pollardstown\",\n    \"date\": \"born 1814, died 13th August 1877\",\n    \"location\": \"NULL\"\n  },\n  {\n    \"memorial_number\": 69,\n    \"name\": \"Daniel O'Mahony\",\n    \"date\": \"died Dec. 12th, 1810\",\n    \"location\": \"OLCWS m'town Churchyard\"\n  },\n  {\n    \"memorial_number\": 70,\n    \"name\": \"Bridget N Walsh\",\n    \"date\": \"died August 19th, 1869\",\n    \"location\": \"NULL\"\n  },\n  {\n    \"memorial_number\": 67,\n    \"name\": \"Honor Kane\",\n    \"date\": \"died March 4th, 1852\",\n    \"location\": \"OHCWS\"\n  },\n  {\n    \"memorial_number\": 68,\n    \"name\": \"Cornelius O'Brien of M.T.E.L.O.S.T.O.N.\",\n    \"date\": \"died Aug. 1858 aged 17\",\n    \"location\": \"NULL\"\n  }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

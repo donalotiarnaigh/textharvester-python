@@ -130,10 +130,6 @@ def process_images(image_paths, api_key, output_directory, batch_number):
         logging.info(f"Output saved to {output_path}")
         return response.json()
 
-    except requests.exceptions.HTTPError as err:
-        logging.error(f"HTTP Error during API request: {err}")
-    except requests.exceptions.RequestException as e:
-        logging.error(f"Request Exception during API request: {e}")
     except Exception as e:
         logging.error(f"Error during API request: {e}")
 
@@ -148,21 +144,22 @@ def main(folder_path, api_key, output_directory):
     image_files = glob.glob(os.path.join(folder_path, '*.jpg'))
     image_files.sort()
 
-    batch_size = 3
+    # Adaptive batch size based on token limit
+    token_limit_per_request = 4000
+    token_rate_limit_per_minute = 10000
+    max_batch_size = token_rate_limit_per_minute // token_limit_per_request
 
-    if not image_files:
-        logging.error("No JPG files found in the specified directory.")
-        return
+    # Limit the number of concurrent threads
+    thread_pool_size = 2  # Adjust based on rate limits
 
-    total_batches = len(image_files) // batch_size + \
-        (len(image_files) % batch_size > 0)
+    batches = [(image_files[i:i + max_batch_size], api_key, output_directory, i // max_batch_size + 1)
+               for i in range(0, len(image_files), max_batch_size)]
 
-    # Progress bar with tqdm
-    for i in tqdm(range(0, len(image_files), batch_size), total=total_batches, desc="Processing Batches"):
-        batch = image_files[i:i + batch_size]
-        batch_number = i // batch_size + 1
-        logging.info(f"Processing batch {batch_number}...")
-        process_images(batch, api_key, output_directory, batch_number)
+    total_batches = len(batches)
+
+    with ThreadPoolExecutor(max_workers=thread_pool_size) as executor:
+        list(tqdm(executor.map(process_batch, batches),
+             total=total_batches, desc="Processing Batches"))
 
 
 if __name__ == "__main__":

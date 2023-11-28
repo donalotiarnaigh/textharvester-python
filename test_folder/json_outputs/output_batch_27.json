@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8PzluzBlFvXBcXByxAq58nr70DdZH",
+    "object": "chat.completion",
+    "created": 1701206342,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 2319,
+        "completion_tokens": 243,
+        "total_tokens": 2562
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 17,\n        \"name\": \"Michael McSalt Knockagarfy, Johanna, Margaret, John\",\n        \"date\": \"6th December 1879, 31st March 1916, 4th February 1909, 16th December 1925\",\n        \"location\": \"OLCN'S M'town Churchyard\"\n    },\n    {\n        \"memorial_number\": 18,\n        \"name\": \"Michael O'Brien\",\n        \"date\": \"NULL\",\n        \"location\": \"NULL\"\n    },\n    {\n        \"memorial_number\": 19,\n        \"name\": \"John Roche, Ellen (nee Hanley)\",\n        \"date\": \"3rd Nov 1913, 30th Oct 1919\",\n        \"location\": \"OLCN'S M'town Churchyard\"\n    },\n    {\n        \"memorial_number\": 20,\n        \"name\": \"Patrick Rea, Johanna nee Dwane\",\n        \"date\": \"October 28, 1970, April 22, 1989\",\n        \"location\": \"NULL\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Pzl5Wp3KH7aL80li1E5oNH9gWZZA",
+    "object": "chat.completion",
+    "created": 1701206291,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 2319,
+        "completion_tokens": 178,
+        "total_tokens": 2497
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 121,\n        \"name\": \"Patrick Meehan\",\n        \"date\": \"November 7, 1815\",\n        \"location\": \"Mulberry Lane\"\n    },\n    {\n        \"memorial_number\": 122,\n        \"name\": \"NULL\",\n        \"date\": \"NULL\",\n        \"location\": \"Cloonough, Mitchelstown\"\n    },\n    {\n        \"memorial_number\": 124,\n        \"name\": \"Edmond Walsh\",\n        \"date\": \"November 20, 1844\",\n        \"location\": \"NULL\"\n    },\n    {\n        \"memorial_number\": 129,\n        \"name\": \"Mary King (nee Geary)\",\n        \"date\": \"July 26, 1936\",\n        \"location\": \"NULL\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

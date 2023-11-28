@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8PzlQjdAntin62K44A6nWlCQaqjrf",
+    "object": "chat.completion",
+    "created": 1701206312,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 2319,
+        "completion_tokens": 159,
+        "total_tokens": 2478
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 125,\n        \"name\": \"John Walsh\",\n        \"date\": \"1947\",\n        \"location\": \"Carrhue, Kilkenny\"\n    },\n    {\n        \"memorial_number\": 126,\n        \"name\": \"James Walsh\",\n        \"date\": \"1863\",\n        \"location\": \"Carrhue\"\n    },\n    {\n        \"memorial_number\": 127,\n        \"name\": \"NULL\",\n        \"date\": \"NULL\",\n        \"location\": \"NULL\"\n    },\n    {\n        \"memorial_number\": 128,\n        \"name\": \"John and Thomas Myers\",\n        \"date\": \"1851\",\n        \"location\": \"Coolbee\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

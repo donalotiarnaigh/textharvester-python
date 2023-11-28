@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8PzpvcQtAIJdTDnxmu3evxjHfdfd5",
+    "object": "chat.completion",
+    "created": 1701206591,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 545,
+        "total_tokens": 3969
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 63,\n        \"name\": \"Katherine Hanrahan\",\n        \"date\": \"January 1850\",\n        \"location\": null\n    },\n    {\n        \"memorial_number\": 63,\n        \"name\": \"John Hanrahan\",\n        \"date\": \"August 1900\",\n        \"location\": null\n    },\n    {\n        \"memorial_number\": 63,\n        \"name\": \"Ann Hanrahan\",\n        \"date\": \"June 13, 1915\",\n        \"location\": null\n    },\n    {\n        \"memorial_number\": 63,\n        \"name\": \"Mary Hanrahan\",\n        \"date\": \"May 22, 1942\",\n        \"location\": null\n    },\n    {\n        \"memorial_number\": 66,\n        \"name\": \"Thomas\",\n        \"date\": \"Born January 1865, Died 17th May, 1912\",\n        \"location\": null\n    },\n    {\n        \"memorial_number\": 68,\n        \"name\": \"Stephen Sullivan\",\n        \"date\": \"Died 14th July 1939\",\n        \"location\": \"Dollardstown\"\n    },\n    {\n        \"memorial_number\": 66,\n        \"name\": \"James Meagher\",\n        \"date\": null,\n        \"location\": \"Old Ross\"\n    },\n    {\n        \"memorial_number\": 68,\n        \"name\": \"Johanna Meagher\",\n        \"date\": null,\n        \"location\": \"Old Ross\"\n    },\n    {\n        \"memorial_number\": 68,\n        \"name\": \"James Meagher\",\n        \"date\": \"Died the 12th July 1956, Aged 64\",\n        \"location\": \"Old Ross\"\n    },\n    {\n        \"memorial_number\": 66,\n        \"name\": \"Michael Meagher\",\n        \"date\": \"Died Sept 22 1953\",\n        \"location\": \"Old Ross, Mitchelstown\"\n    },\n    {\n        \"memorial_number\": 66,\n        \"name\": \"John Meagher\",\n        \"date\": \"Died 22nd Jan 1958, Aged 70 Years\",\n        \"location\": \"Old Ross, Mitchelstown\"\n    },\n    {\n        \"memorial_number\": 66,\n        \"name\": \"Elizabeth O'Donnell n\u00e9e Meagher\",\n        \"date\": \"Died 3rd March 1970\",\n        \"location\": \"Old Ross, Mitchelstown\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

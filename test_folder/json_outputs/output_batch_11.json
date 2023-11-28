@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Pzr7zKPOH9CpdxwNQjLsaVlLSLEE",
+    "object": "chat.completion",
+    "created": 1701206665,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 378,
+        "total_tokens": 3802
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 92,\n        \"name\": \"Denis O'Mahony, Jane O'Brien nee Condon, Mary, Bridie\",\n        \"date\": \"Died 2nd July 1994, Died 3rd Aug 1977\",\n        \"location\": \"OLCW5 Mtown Churchyard\"\n    },\n    {\n        \"memorial_number\": 93,\n        \"name\": \"James Sheridan\",\n        \"date\": \"Died August ?? 2013, Aged 57, His sister ?? who died May ??\",\n        \"location\": \"OLCW5 Mtown Churchyard\"\n    },\n    {\n        \"memorial_number\": 96,\n        \"name\": \"Michael Casey, Hannah Casey, William\",\n        \"date\": \"Died 6 Dec. 1985, Aged 75 years, Died 23 Feb. 198?, Aged 69 years, Died 20 Oct. 1966, Aged 63 years\",\n        \"location\": \"OLCW5 Mtown Churchyard\"\n    },\n    {\n        \"memorial_number\": 97,\n        \"name\": \"Rick Casey, John Casey\",\n        \"date\": \"Died May 6th 1885, Aged 76 yrs, Died July 8th 1857\",\n        \"location\": \"OLCW5 Mtown Churchyard\"\n    },\n    {\n        \"memorial_number\": 13,\n        \"name\": null,\n        \"date\": null,\n        \"location\": \"OLCW5 Mtown Churchyard\"\n    },\n    {\n        \"memorial_number\": 14,\n        \"name\": \"Thomas and Mary Regan\",\n        \"date\": null,\n        \"location\": \"OLCW5 Mtown Churchyard\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

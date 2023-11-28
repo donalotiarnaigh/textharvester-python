@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8PzqtOWkIcKkG7a7sEEouEqxGrPqa",
+    "object": "chat.completion",
+    "created": 1701206651,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 308,
+        "total_tokens": 3732
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 85,\n        \"name\": \"Thomas Byron, Roger Gevard, Mary Elizabeth David Spael, Michael O Sullivan, Jane Anne\",\n        \"date\": \"Sep 29th 1856, Sep 5 1871, 1873, July 8 1877, Oct 1 1855\",\n        \"location\": \"OLCWS Mitchelstown\"\n    },\n    {\n        \"memorial_number\": 160,\n        \"name\": \"Honora O'Brien, Matthew O'Brien\",\n        \"date\": \"A.D. 1851, Jan 18 1850\",\n        \"location\": \"OLCW Mitchelstown\"\n    },\n    {\n        \"memorial_number\": 86,\n        \"name\": \"Anne Fitzgerald\",\n        \"date\": \"July 13 1856\",\n        \"location\": \"OLCWS\"\n    },\n    {\n        \"memorial_number\": 87,\n        \"name\": \"Thomas Condor, Garden Tarvill\",\n        \"date\": \"AD 1848\",\n        \"location\": \"OLCWS\"\n    },\n    {\n        \"memorial_number\": 88,\n        \"name\": null,\n        \"date\": null,\n        \"location\": \"ICWS\"\n    },\n    {\n        \"memorial_number\": 89,\n        \"name\": \"Lawrence Burke\",\n        \"date\": null,\n        \"location\": \"ICWO\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

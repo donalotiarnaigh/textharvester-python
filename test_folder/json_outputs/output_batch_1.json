@@ -1,18 +1,18 @@
 {
-    "id": "chatcmpl-8N5iHV4BOC6ycZgPobD3eZd70nhD5",
+    "id": "chatcmpl-8PzosgpOzFXK01P3cneRg7L7d19Ee",
     "object": "chat.completion",
-    "created": 1700514197,
+    "created": 1701206526,
     "model": "gpt-4-1106-vision-preview",
     "usage": {
         "prompt_tokens": 3424,
-        "completion_tokens": 295,
-        "total_tokens": 3719
+        "completion_tokens": 250,
+        "total_tokens": 3674
     },
     "choices": [
         {
             "message": {
                 "role": "assistant",
-                "content": "```json\n[\n    {\n        \"memorial_number\": 1,\n        \"name\": \"Mary Fitzgibbon\",\n        \"date\": \"November 8, 1861\",\n        \"location\": \"Mitchelstown Churchyard\"\n    },\n    {\n        \"memorial_number\": 2,\n        \"name\": \"Hannah Fitzgerald\",\n        \"date\": \"January 11, 1949\",\n        \"location\": \"Mitchelstown Churchyard\"\n    },\n    {\n        \"memorial_number\": 22,\n        \"name\": \"Thomas and Johanna Roche\",\n        \"date\": \"September 24, 1974 and February 23, 1979\",\n        \"location\": \"Mitchelstown Churchyard\"\n    },\n    {\n        \"memorial_number\": NULL,\n        \"name\": NULL,\n        \"date\": NULL,\n        \"location\": \"Mitchelstown Churchyard\"\n    },\n    {\n        \"memorial_number\": 23,\n        \"name\": \"Michael Rea and Patrick Rea\",\n        \"date\": \"March 28, 1870 and April 6, 2003\",\n        \"location\": \"Mitchelstown Churchyard\"\n    },\n    {\n        \"memorial_number\": 24,\n        \"name\": \"Patrick Corbett\",\n        \"date\": \"December 2, 1963\",\n        \"location\": \"Mitchelstown Churchyard\"\n    }\n]\n```"
+                "content": "```json\n[\n  {\n    \"memorial_number\": 1,\n    \"name\": \"Mary Fitzgibbon\",\n    \"date\": \"November 8, 1861\",\n    \"location\": \"OLCWS Mitchelstown Churchyard\"\n  },\n  {\n    \"memorial_number\": 2,\n    \"name\": \"Margaret\",\n    \"date\": \"8th April 2015\",\n    \"location\": \"OLCWS Mitchelstown Churchyard\"\n  },\n  {\n    \"memorial_number\": 22,\n    \"name\": \"Anne Roche\",\n    \"date\": \"23rd Feb. 1979\",\n    \"location\": \"OLCWS Mitchelstown Churchyard\"\n  },\n  {\n    \"memorial_number\": 23,\n    \"name\": \"Patrick Rea\",\n    \"date\": \"April 5, 2003\",\n    \"location\": \"OLCWS Mitchelstown Churchyard\"\n  },\n  {\n    \"memorial_number\": 24,\n    \"name\": \"Patrick Corbett\",\n    \"date\": \"2nd Dec. 1963\",\n    \"location\": \"OLCWS Mitchelstown Churchyard\"\n  }\n]\n```"
             },
             "finish_details": {
                 "type": "stop",

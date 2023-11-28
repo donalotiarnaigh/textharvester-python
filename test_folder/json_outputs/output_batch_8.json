@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8PzqUw60sMSgB6DkcTkxYjNZzZtkD",
+    "object": "chat.completion",
+    "created": 1701206626,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 393,
+        "total_tokens": 3817
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 11,\n        \"name\": \"Thomas O'doughlin\",\n        \"date\": \"Feb 21, 1879\",\n        \"location\": \"Mitchelstown\"\n    },\n    {\n        \"memorial_number\": 12,\n        \"name\": \"James O'Donnell, Mary O'Donnell\",\n        \"date\": \"Feb 5, 1880, March 31, 1881\",\n        \"location\": \"Mitchelstown\"\n    },\n    {\n        \"memorial_number\": 71,\n        \"name\": \"Patrick Quinlan, Marga(et\",\n        \"date\": \"Jan. 31, 1950\",\n        \"location\": \"Kilshanny\"\n    },\n    {\n        \"memorial_number\": 72,\n        \"name\": \"Wm Harrington, Mary, Ellen Griffith\",\n        \"date\": \"April 12, 1869, May 12, 1858, Aug. 4_, 1851\",\n        \"location\": \"Skeheen\"\n    },\n    {\n        \"memorial_number\": 73,\n        \"name\": \"Mary McCarry (nee Harrington), Patrick Harrington, David Harrington\",\n        \"date\": \"26th July 2007, 21st September 1919, 23rd September 1918\",\n        \"location\": \"Mitchelstown\"\n    },\n    {\n        \"memorial_number\": 81,\n        \"name\": \"Ellen Clifford, Patrick Clifford, John Clifford, Thomas, Margaret\",\n        \"date\": \"Apr 28, 1887, Aug. 21, 1840, Jan. 4, 1877, Aug 24, 1886, Jan. 30, 1933\",\n        \"location\": \"Ballygarth\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

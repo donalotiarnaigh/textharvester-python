@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8PzkZiqIq0FvsPI2HkCxmPqgEOLM2",
+    "object": "chat.completion",
+    "created": 1701206259,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 2319,
+        "completion_tokens": 180,
+        "total_tokens": 2499
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 108,\n        \"name\": \"Mary\",\n        \"date\": \"May 11, 1874\",\n        \"location\": \"Millestown\"\n    },\n    {\n        \"memorial_number\": 109,\n        \"name\": \"T Jackson\",\n        \"date\": \"Dec 28th 1850\",\n        \"location\": null\n    },\n    {\n        \"memorial_number\": 110,\n        \"name\": \"Thomas Condon\",\n        \"date\": \"Jan 20th 1876\",\n        \"location\": \"Killaghinane\"\n    },\n    {\n        \"memorial_number\": 111,\n        \"name\": \"Rolfe Condon\",\n        \"date\": \"June 23. 1963\",\n        \"location\": \"Kilcullane\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

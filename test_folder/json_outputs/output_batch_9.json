@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8PzqhuS5LUKXN0O0HwjLPngTpMOk3",
+    "object": "chat.completion",
+    "created": 1701206639,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 263,
+        "total_tokens": 3687
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 75,\n        \"name\": \"Eliza Daly\",\n        \"date\": \"March 1, 1856\",\n        \"location\": null\n    },\n    {\n        \"memorial_number\": 75,\n        \"name\": \"Rev. James Daly\",\n        \"date\": \"June 1, 1864\",\n        \"location\": null\n    },\n    {\n        \"memorial_number\": 76,\n        \"name\": null,\n        \"date\": null,\n        \"location\": \"OLCUS MITTON\"\n    },\n    {\n        \"memorial_number\": 77,\n        \"name\": \"Cornelius M. Sweeney\",\n        \"date\": \"April 30, 1900\",\n        \"location\": \"MITCHELSTOWN\"\n    },\n    {\n        \"memorial_number\": 74,\n        \"name\": \"William Hayes\",\n        \"date\": \"January 17, 1925\",\n        \"location\": \"Our Lady's Convent Mitchel St.\"\n    },\n    {\n        \"memorial_number\": 79,\n        \"name\": \"Patrick Molony\",\n        \"date\": \"November 30, 1944\",\n        \"location\": null\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

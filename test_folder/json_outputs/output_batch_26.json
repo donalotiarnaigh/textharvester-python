@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8PzlVFcDxvx9rlwY5SnjwhidndU4Z",
+    "object": "chat.completion",
+    "created": 1701206317,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 2319,
+        "completion_tokens": 174,
+        "total_tokens": 2493
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n  {\n    \"memorial_number\": 133,\n    \"name\": \"Maurice Condon\",\n    \"date\": \"Feb 16, 1982\",\n    \"location\": \"Dun Laoghaire West\"\n  },\n  {\n    \"memorial_number\": 134,\n    \"name\": \"William Lyons\",\n    \"date\": \"NULL\",\n    \"location\": \"Du\"\n  },\n  {\n    \"memorial_number\": 1364,\n    \"name\": \"David Murphy Ballygluther\",\n    \"date\": \"5 January 1961\",\n    \"location\": \"O'Conn's McTell\"\n  },\n  {\n    \"memorial_number\": \"NULL\",\n    \"name\": \"NULL\",\n    \"date\": \"NULL\",\n    \"location\": \"NULL\"\n  }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8PzlEMAt432KwQK7OCa2xMAQhP3tz",
+    "object": "chat.completion",
+    "created": 1701206300,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 2319,
+        "completion_tokens": 338,
+        "total_tokens": 2657
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 130,\n        \"name\": \"NULL\",\n        \"date\": \"NULL\",\n        \"location\": \"Dunlewy Graveyard\"\n    },\n    {\n        \"memorial_number\": 132,\n        \"name\": \"\n            John O'Gloan,\n            Edmund O'Gloan,\n            Roger O'Donnall,\n            Patrick O'Gloan,\n            Thomas O'Gloan,\n            Emma (O'Gloan) O'Donnall,\n            Mary (O'Gloan) Corcoran,\n            Fr. Thomas O'Gloan P.F.,\n            Fr. Bernard O'Gloan,\n            Joesph O'Gloan,\n            Paddy O'Brien\n        \",\n        \"date\": \"\n            John O'Gloan - 1886,\n            Edmund O'Gloan - 1917,\n            Roger O'Donnall - 1918,\n            Patrick O'Gloan - 1925,\n            Thomas O'Gloan - 1937,\n            Emma (O'Gloan) O'Donnall - 19th May 1965,\n            Mary (O'Gloan) Corcoran - 27th Sep 1966,\n            Fr. Thomas O'Gloan P.F. - Dec 1977,\n            Fr. Bernard O'Gloan - 10th June 1984,\n            Joesph O'Gloan - 10th June 1984,\n            Paddy O'Brien - 27th June 2001\n        \",\n        \"location\": \"Belcruit Mitchell\"\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

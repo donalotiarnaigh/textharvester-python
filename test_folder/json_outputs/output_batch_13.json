@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8PzrhqqSRFsaDGct28dI19NQvybpi",
+    "object": "chat.completion",
+    "created": 1701206701,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 3424,
+        "completion_tokens": 305,
+        "total_tokens": 3729
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n  {\n    \"memorial_number\": \"104\",\n    \"name\": \"Mary Relic of the late Michael Fitzgerald\",\n    \"date\": \"March 21st, 1848\",\n    \"location\": \"Rathwood in the County of Limerick Esq\"\n  },\n  {\n    \"memorial_number\": \"105\",\n    \"name\": \"NULL\",\n    \"date\": \"NULL\",\n    \"location\": \"NULL\"\n  },\n  {\n    \"memorial_number\": \"106\",\n    \"name\": \"Thomas Mannix and Margaret Mannix\",\n    \"date\": \"March 25th, 1833\",\n    \"location\": \"NULL\"\n  },\n  {\n    \"memorial_number\": \"107\",\n    \"name\": \"Catherine Dillon, Patrick, James, John Stephan, Jas Dillon\",\n    \"date\": \"Nov 1866, Jan 25 1871, March 1888\",\n    \"location\": \"Mitchelstown\"\n  },\n  {\n    \"memorial_number\": \"108\",\n    \"name\": \"Mary Sheehan\",\n    \"date\": \"May 11, 1874\",\n    \"location\": \"Mitchelstown\"\n  },\n  {\n    \"memorial_number\": \"109\",\n    \"name\": \"T Jackson and Catherine Jackson\",\n    \"date\": \"Dec 29th 1850, August 16 1849\",\n    \"location\": \"NULL\"\n  }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

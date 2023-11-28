@@ -10,7 +10,7 @@ def collect_records(records):
         if isinstance(record, dict):
             if 'error' not in record:
                 valid_records.append(record)
-                print(f"Record added: {record}")
+                print(f"Record added successfully")
             else:
                 print(f"Skipping record with error: {record}")
         else:
@@ -62,7 +62,8 @@ def process_json_files(folder_path):
 
     print(f"Total records collected: {len(all_records)}")
     # Sort all records by 'memorial_number'
-    sorted_records = sorted(all_records, key=lambda x: x['memorial_number'])
+    sorted_records = sorted(all_records, key=lambda x: (
+        x['memorial_number'] is None, x['memorial_number']))
     print("Records sorted by memorial number")
     return sorted_records
 
@@ -78,9 +79,9 @@ def write_to_csv(records, csv_path):
 
 
 # Replace with actual folder path
-json_folder_path = 'PATH_TO_JSON_FOLDER'
+json_folder_path = '/Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs'
 # Replace with actual file path
-csv_file_path = 'PATH_TO_OUTPUT_CSV'
+csv_file_path = '/Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/output.csv'
 
 print("Script started")
 sorted_records = process_json_files(json_folder_path)

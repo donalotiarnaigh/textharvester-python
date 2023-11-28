@@ -1,18 +1,18 @@
 {
-    "id": "chatcmpl-8N5j5XX36qU0EIj3lBVSpxwps8Slw",
+    "id": "chatcmpl-8PzphUObjav2KT42cUTEQztc7FIH3",
     "object": "chat.completion",
-    "created": 1700514247,
+    "created": 1701206577,
     "model": "gpt-4-1106-vision-preview",
     "usage": {
         "prompt_tokens": 3424,
-        "completion_tokens": 396,
-        "total_tokens": 3820
+        "completion_tokens": 283,
+        "total_tokens": 3707
     },
     "choices": [
         {
             "message": {
                 "role": "assistant",
-                "content": "```json\n[\n    {\n        \"memorial_number\": 41,\n        \"name\": \"James O'Reilly and his father Thomas\",\n        \"date\": \"Sept. 15,1936 and Oct. 13, 1991\",\n        \"location\": \"Ballykeeran, Ballylanders\"\n    },\n    {\n        \"memorial_number\": 42,\n        \"name\": \"Mary Coughlan\",\n        \"date\": \"June 11th 1860\",\n        \"location\": \"Coolnamahoge\"\n    },\n    {\n        \"memorial_number\": 43,\n        \"name\": \"Daniel Casey, Mary Casey, and Ellen Casey\",\n        \"date\": \"May 20th 1864, Sept. 29th 1858, and August 5th, 1863\",\n        \"location\": \"Kilkeane\"\n    },\n    {\n        \"memorial_number\": 44,\n        \"name\": \"Daniel Casey, Ellen Casey, Michael Casey, Elizabeth Harrington, Josie\",\n        \"date\": \"Sept. 1852, No date, No date, March 1988, No Date\",\n        \"location\": \"Philadelphia\"\n    },\n    {\n        \"memorial_number\": 45,\n        \"name\": \"Lawrence Moriarty, Thomas, John, Andrew, Margaret Moriarty, Sean Moriarty\",\n        \"date\": \"Sept. 18, 1952, April 1941, Jan.6, 1951, Jan.28, 1959, Aug.28, 1983, Oct.27, 1946\",\n        \"location\": \"Knockbill Lawn, Motebellow\"\n    },\n    {\n        \"memorial_number\": 46,\n        \"name\": \"John O'Brien and family\",\n        \"date\": \"NULL\",\n        \"location\": \"Thornhill Lawn\"\n    }\n]\n```"
+                "content": "```json\n[\n    {\n        \"memorial_number\": 9,\n        \"name\": \"Ellen Britt, John Britt\",\n        \"date\": \"April 14, 1886, Feb. 25, 1889\",\n        \"location\": \"OLCN's Mtown Churchyard\"\n    },\n    {\n        \"memorial_number\": 10,\n        \"name\": \"NULL\",\n        \"date\": \"NULL\",\n        \"location\": \"NULL\"\n    },\n    {\n        \"memorial_number\": 62,\n        \"name\": \"Donald F Fitzgerald, Kitty Garland\",\n        \"date\": \"June 10, 1987, Sept 21, 1993\",\n        \"location\": \"NULL\"\n    },\n    {\n        \"memorial_number\": 62,\n        \"name\": \"Kitty Garland\",\n        \"date\": \"NULL\",\n        \"location\": \"NULL\"\n    },\n    {\n        \"memorial_number\": 63,\n        \"name\": \"NULL\",\n        \"date\": \"NULL\",\n        \"location\": \"Mickelston\"\n    },\n    {\n        \"memorial_number\": 63,\n        \"name\": \"Michael Hanrahan, Margaret Hanrahan\",\n        \"date\": \"Dec. 1, 1950, April 27, 1957\",\n        \"location\": \"NULL\"\n    }\n]\n```"
             },
             "finish_details": {
                 "type": "stop",

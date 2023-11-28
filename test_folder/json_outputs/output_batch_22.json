@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8PzkjPubgqERDM7dG0FkFQ3200ix7",
+    "object": "chat.completion",
+    "created": 1701206269,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 2319,
+        "completion_tokens": 187,
+        "total_tokens": 2506
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n    {\n        \"memorial_number\": 119,\n        \"name\": \"Margaret Cronin\",\n        \"date\": \"A.D. 1871\",\n        \"location\": \"Our Lady of Graced Churchyard\"\n    },\n    {\n        \"memorial_number\": 120,\n        \"name\": \"Patrick Cronin\",\n        \"date\": \"1876 - 1940\",\n        \"location\": \"Do.\"\n    },\n    {\n        \"memorial_number\": 15,\n        \"name\": \"Michael Pigott\",\n        \"date\": \"23 Sept 1859\",\n        \"location\": \"OLCWS Motown Churchyard\"\n    },\n    {\n        \"memorial_number\": 16,\n        \"name\": \"Fr. Michael G. Hayes\",\n        \"date\": \"Died 10th April 1974\",\n        \"location\": NULL\n    }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}

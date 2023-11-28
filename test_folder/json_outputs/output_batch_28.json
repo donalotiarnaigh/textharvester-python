@@ -1,0 +1,24 @@
+{
+    "id": "chatcmpl-8Pzlef0zMhiv8B1y3npj2EREA1Msx",
+    "object": "chat.completion",
+    "created": 1701206326,
+    "model": "gpt-4-1106-vision-preview",
+    "usage": {
+        "prompt_tokens": 1214,
+        "completion_tokens": 113,
+        "total_tokens": 1327
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "```json\n[\n  {\n    \"memorial_number\": 21,\n    \"name\": \"Margaret Rea nee Hennessy\",\n    \"date\": \"Died 1st March 1932. Aged 80 yrs, Sept 2nd 1870 aged 20 yrs\",\n    \"location\": \"Johnstown Hse, Beldindangan\"\n  },\n  {\n    \"memorial_number\": 22,\n    \"name\": NULL,\n    \"date\": NULL,\n    \"location\": NULL\n  }\n]\n```"
+            },
+            "finish_details": {
+                "type": "stop",
+                "stop": "<|fim_suffix|>"
+            },
+            "index": 0
+        }
+    ]
+}
