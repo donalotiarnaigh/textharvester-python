@@ -79,9 +79,9 @@ def write_to_csv(records, csv_path):
 
 
 # Replace with actual folder path
-json_folder_path = '/Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/json_outputs'
+json_folder_path = 'PATH_TO_JSON_FOLDER'
 # Replace with actual file path
-csv_file_path = '/Users/danieltierney/Desktop/WebDev/openai-playground/HG_TextHarvest_v1/test_folder/output.csv'
+csv_file_path = 'PATH_TO_OUTPUT_CSV'
 
 print("Script started")
 sorted_records = process_json_files(json_folder_path)

@@ -19,10 +19,10 @@ def convert_pdf_to_jpg(pdf_path, output_folder):
         print(f'Page {i+1} saved as {img_path}')
 
 
-# Path to the PDF file
-# Replace with your PDF file path
-pdf_path = 'PATH_TO_PDF'
-# Replace with your desired output folder
-output_folder = 'PATH_TO_OUTPUT_FOLDER'
+if __name__ == '__main__':
+    # Path to the PDF file
+    pdf_path = 'PATH_TO_PDF'
+    # Output folder path
+    output_folder = 'PATH_TO_OUTPUT_FOLDER'
 
-convert_pdf_to_jpg(pdf_path, output_folder)
+    convert_pdf_to_jpg(pdf_path, output_folder)
