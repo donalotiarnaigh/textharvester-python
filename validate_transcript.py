@@ -45,9 +45,11 @@ def main(json_file_path):
             file_data = json.load(file)
             json_data = extract_json_content(file_data)
             if json_data is not None and validate_json(json_data, schema):
-                print("JSON file is valid according to the schema.")
+                print(
+                    f"JSON file {json_file_path} is valid according to the schema.")
             else:
-                print("JSON file is not valid.")
+                print(
+                    f"JSON file {json_file_path} is not valid according to the schema.")
     except FileNotFoundError:
         print(f"File not found: {json_file_path}")
     except json.JSONDecodeError as e:
@@ -56,5 +58,5 @@ def main(json_file_path):
 
 if __name__ == "__main__":
     # Replace with the path to your JSON file
-    json_file_path = '/Users/danieltierney/Desktop/HistoricGraves/Kiltullagh_Roscommon/kil_output_jsons/output_batch_1.json'
+    json_file_path = 'PATH_TO_YOUR_JSON_FILE'
     main(json_file_path)
