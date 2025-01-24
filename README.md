@@ -1,4 +1,4 @@
-# User Guide for HG TextHarvester
+# User Guide for Textharvester Python Toolkit
 
 ## Introduction
 
